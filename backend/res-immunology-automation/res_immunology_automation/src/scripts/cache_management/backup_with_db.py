@@ -4,9 +4,13 @@ Module for backing up individual disease cache data.
 
 import os
 import asyncio
+import tzlocal 
 import shutil
 import sys
+from datetime import datetime
+import json
 from sqlalchemy import select
+from pathlib import Path
 from .utils import (
     setup_logging, 
     create_backup_directories,
@@ -51,10 +55,11 @@ async def backup_single_disease(disease_id):
         
         # Check if there's an existing backup for this disease
         existing_backup = find_latest_backup_for_disease(disease_id)
+        # Add this code to backup_single_disease function after finding the existing backup
         if existing_backup:
             logger.info(f"Found existing backup for {disease_id}: {os.path.basename(existing_backup)}")
             logger.info(f"Removing old backup and creating new one: {backup_filename}")
-            # Remove the old backup
+        # Remove the old backup
             try:
                 os.remove(existing_backup)
             except Exception as e:
@@ -95,6 +100,28 @@ async def backup_processed_diseases():
     except Exception as e:
         logger.error(f"Error getting processed diseases: {str(e)}")
         return []
+
+
+async def backup_and_populate_db():
+    """Legacy function for backwards compatibility."""
+    logger = setup_logging("backup_legacy")
+    logger.warning("Legacy backup function called. This function is deprecated and will backup all diseases at once.")
+    
+    # Get all processed diseases
+    disease_ids = await backup_processed_diseases()
+    
+    if not disease_ids:
+        return False
+    
+    # Backup each disease one by one
+    success_count = 0
+    for disease_id in disease_ids:
+        result = await backup_single_disease(disease_id)
+        if result:
+            success_count += 1
+    
+    logger.info(f"Successfully backed up {success_count}/{len(disease_ids)} diseases")
+    return success_count > 0
 
 
 async def main():
