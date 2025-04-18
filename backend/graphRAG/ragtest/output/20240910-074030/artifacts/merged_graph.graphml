@@ -1,0 +1,3023 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="TNFSF4">
+      <data key="d0">GENE</data>
+      <data key="d1">TNFSF4, also known as OX40L, is a gene that encodes for the T cell costimulatory molecule OX40 ligand and is associated with susceptibility to autoimmune diseases such as SLE and SSc
+TNFSF4 is a gene from the tumour necrosis factor ligand superfamily member 4 that is associated with SLE and SSc susceptibility
+TNFSF4 is a gene from the tumour necrosis factor ligand superfamily member 4 that is associated with systemic sclerosis susceptibility
+TNFSF4 is a gene from the tumour necrosis factor ligand superfamily member 4 that is associated with SSc susceptibility
+TNFSF4 is a gene from the tumour necrosis factor ligand superfamily member 4 that is associated with SSc susceptibility
+TNFSF4 is a gene from the tumour necrosis factor ligand superfamily member 4 that is associated with SSc susceptibility</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,5639a5e5649646c1e4c8deb1e1f0a1b1,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="OX40L">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">OX40L is the protein encoded by the TNFSF4 gene and functions as a T cell costimulatory molecule
+OX40L is a protein encoded by TNFSF4 and is expressed on various immune and non-immune cells, providing a costimulatory signal for T cell proliferation, survival, and cytokine production
+OX40L is the binding partner of OX40 and enhances T cell survival and B cell proliferation
+OX40L is the ligand for OX40, also a member of the tumour necrosis factor superfamily, crucial for the generation of Th2 memory cells and involved in the pathogenesis of atopic dermatitis
+OX40 Ligand, a protein that binds to OX40 and is involved in T cell activation and survival
+OX40L is a gene that encodes a ligand for the OX40 receptor, involved in T cell costimulatory signalingOX40L is a protein involved in T cell costimulatory signaling, measured in patients with atopic dermatitis
+OX40L, the ligand for OX40, highly expressed by monocytes in atopic dermatitis
+OX40L is a protein expressed on the surface of certain cells and is involved in immune responses
+OX40L is the ligand for OX40 and plays a role in T cell activation and survival</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,2712037f85fc28b3e86b92a719cb7a6c,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd,87174642d9d24116b8cc01fca23746f2,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1,ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="SLE">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Systemic lupus erythematosus, an autoimmune disease characterized by the immune system attacking its own tissues
+Systemic lupus erythematosus, an autoimmune disease
+Systemic lupus erythematosus, an autoimmune disease associated with TNFSF4
+Systemic lupus erythematosus, an autoimmune disease</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="SSC">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Systemic sclerosis, also known as scleroderma, is a chronic multisystem disease characterized by progressive fibrosis in the skin and internal organs
+Systemic sclerosis, an autoimmune disease that leads to fibrosis of the skin and internal organs
+Systemic sclerosis, a clinically heterogeneous autoimmune disease characterized by fibrosis of the skin and internal organs
+Systemic sclerosis, a disease associated with TNFSF4 and SNPs rs2205960 and rs855648
+Systemic sclerosis, a disease associated with TNFSF4 and various SNPs
+Systemic sclerosis, a disease associated with TNFSF4 and SNPs rs2205960 and rs944648
+Systemic sclerosis, a disease associated with TNFSF4 and SNPs rs2205960 and rs944648</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,5639a5e5649646c1e4c8deb1e1f0a1b1,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950,c89a7a896cf934207d874042e48857da,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </node>
+    <node id="RS1234314">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs1234314 in the TNFSF4 gene region is associated with susceptibility to systemic sclerosis
+Single nucleotide polymorphism rs1234314 of the TNFSF4 gene is associated with systemic sclerosis
+Single nucleotide polymorphism rs1234314 in the TNFSF4 gene, associated with systemic sclerosis susceptibility
+Single nucleotide polymorphism rs1234314 of the TNFSF4 gene is linked to systemic sclerosis
+Single nucleotide polymorphism rs1234314 of the TNFSF4 gene is associated with systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </node>
+    <node id="RS2205960">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs2205960 in the TNFSF4 gene region is associated with susceptibility to systemic sclerosis
+Single nucleotide polymorphism rs2205960 of the TNFSF4 gene is associated with systemic sclerosis
+Single nucleotide polymorphism rs2205960 in the TNFSF4 gene, associated with systemic sclerosis susceptibility
+Single nucleotide polymorphism rs2205960 of the TNFSF4 gene is linked to systemic sclerosis
+Single nucleotide polymorphism rs2205960 of the TNFSF4 gene is associated with systemic sclerosis
+Single nucleotide polymorphism rs2205960 of the TNFSF4 gene is linked to systemic sclerosis
+Single nucleotide polymorphism rs2205960 of the TNFSF4 gene is linked to systemic sclerosis
+Single nucleotide polymorphism rs2205960 of the AIF1 gene is linked to systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,5639a5e5649646c1e4c8deb1e1f0a1b1,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950,c89a7a896cf934207d874042e48857da,e2d4a3467d27e6de3b2eea8b20f310e8,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="RS844648">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs844648 in the TNFSF4 gene region is associated with susceptibility to systemic sclerosis
+Single nucleotide polymorphism rs844648 of the TNFSF4 gene is associated with systemic sclerosis
+Single nucleotide polymorphism rs844648 in the TNFSF4 gene, associated with systemic sclerosis susceptibility
+Single nucleotide polymorphism rs844648 of the TNFSF4 gene is linked to systemic sclerosis
+Single nucleotide polymorphism rs844648 of the TNFSF4 gene is associated with systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </node>
+    <node id="RS844644">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs844644 in the TNFSF4 gene region is protective against systemic sclerosis
+Single nucleotide polymorphism rs844644 of the TNFSF4 gene is associated with systemic sclerosis
+Single nucleotide polymorphism rs844644 in the TNFSF4 gene, associated with systemic sclerosis susceptibility
+Single nucleotide polymorphism rs844644 of the TNFSF4 gene is linked to systemic sclerosis
+Single nucleotide polymorphism rs844644 of the TNFSF4 gene is associated with systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </node>
+    <node id="PTPN22">
+      <data key="d0">GENE</data>
+      <data key="d1">PTPN22 is a gene associated with the development of multiple autoimmune diseases including type I diabetes mellitus, rheumatoid arthritis, and systemic lupus erythematosus
+PTPN22 is a gene associated with SSc susceptibilityPTPN22 is a gene associated with systemic sclerosis susceptibility
+PTPN22 is a gene encoding a protein tyrosine phosphatase associated with rheumatoid arthritis and type I diabetes</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="TIDM">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Type I diabetes mellitus, an autoimmune disease where the immune system attacks insulin-producing cells in the pancreas</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2</data>
+    </node>
+    <node id="RA">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Rheumatoid arthritis, an autoimmune disease characterized by chronic inflammation of the joints
+Rheumatoid arthritis, an autoimmune disease that may share genetic risk factors with SSc and SLERheumatoid arthritis, an autoimmune disease that may share genetic risk factors with systemic sclerosis and systemic lupus erythematosus</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="STAT4">
+      <data key="d0">GENE</data>
+      <data key="d1">STAT4 is a gene associated with susceptibility to systemic lupus erythematosus and rheumatoid arthritis
+STAT4 is a gene associated with SSc susceptibilitySTAT4 is a gene associated with systemic sclerosis susceptibility
+STAT4 is a gene influencing the genetic predisposition to systemic sclerosis and systemic lupus erythematosus</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="IRF5">
+      <data key="d0">GENE</data>
+      <data key="d1">IRF5 is a gene associated with polymorphisms linked to systemic lupus erythematosus and systemic sclerosis
+IRF5 is a gene associated with SSc susceptibilityIRF5 is a gene associated with systemic sclerosis susceptibility
+IRF5 is a gene with functional variants defining risk and protective haplotypes for human lupus</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="FAS">
+      <data key="d0">GENE</data>
+      <data key="d1">FAS is a gene associated with polymorphisms linked to systemic lupus erythematosus and systemic sclerosis
+FAS is a gene associated with systemic sclerosis susceptibilityFAS is a gene associated with SSc susceptibility
+FAS is a gene with a promoter region polymorphism influencing susceptibility to systemic sclerosis and systemic lupus erythematosus</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="CREST">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">CREST syndrome is a subset of systemic sclerosis characterized by Calcinosis, Raynaud&#8217;s phenomenon, Esophageal dysfunction, Sclerodactyly, and Telangiectasias
+CREST stands for Calcinosis, Raynaud&#8217;s phenomenon, Esophageal dysfunction, Sclerodactyly, and Telangiectasias, which are features used in disease classification</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="CALCINOSIS">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Calcinosis is the formation of calcium deposits in the skin, a feature of CREST syndrome
+Calcinosis is the formation of calcium deposits in the skin and other tissues</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="RAYNAUD&#8217;S PHENOMENON">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Raynaud&#8217;s phenomenon is a condition where blood flow to extremities is reduced, causing them to turn white or blue, a feature of CREST syndrome
+Raynaud&#8217;s phenomenon is a condition where blood flow to extremities is reduced, often triggered by cold or stress</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="ESOPHAGEAL DYSFUNCTION">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Esophageal dysfunction is difficulty in swallowing or other esophageal issues, a feature of CREST syndrome
+Esophageal dysfunction refers to problems with the esophagus, such as difficulty swallowing or acid reflux</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="SCLERODACTYLY">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Sclerodactyly is the thickening and tightening of the skin on the fingers and hands, a feature of CREST syndrome
+Sclerodactyly is a condition characterized by thickening and tightening of the skin on the fingers and hands</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="TELANGIECTASIAS">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Telangiectasias are small dilated blood vessels near the surface of the skin, a feature of CREST syndrome
+Telangiectasias are small, widened blood vessels on the skin, often seen in systemic sclerosis</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="AUTOIMMUNE DISEASES">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Autoimmune diseases are conditions where the immune system mistakenly attacks the body's own tissues</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2</data>
+    </node>
+    <node id="ATHEROSCLEROSIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Atherosclerosis is a disease characterized by the buildup of fats, cholesterol, and other substances in and on the artery walls</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2</data>
+    </node>
+    <node id="MYOSITIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Myositis is an inflammation of the muscles that can cause muscle weakness and pain
+Myositis is an inflammation of the muscles that can be a symptom in various autoimmune diseases</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="SJOGREN'S SYNDROME">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Sjogren's syndrome is an autoimmune disease characterized by dry eyes and dry mouth
+Sjogren's syndrome is an autoimmune disease characterized by dry eyes and dry mouth</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="INTERFERON REGULATORY FACTOR 5">
+      <data key="d0">GENE</data>
+      <data key="d1">Interferon regulatory factor 5 (IRF5) is a gene associated with polymorphisms linked to systemic lupus erythematosus and systemic sclerosis</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2</data>
+    </node>
+    <node id="TYPE I INTERFERON">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Type I interferon pathway is involved in the immune response and is upregulated in patients with systemic lupus erythematosus and systemic sclerosis
+Type I interferon expression, in combination with OX40L, may induce a Th1 response</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="ANTIBODIES">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Antinuclear antibodies are a type of antibody that targets the nucleus of cells and are found in patients with autoimmune diseases like SLE and SScAntibodies are proteins produced by the immune system to help fight infections and are found in patients with autoimmune diseases like SLE and SSc</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="EXTRACELLULAR MATRIX">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Extracellular matrix deposition is a process involved in the pathology of systemic sclerosis, leading to fibrosis</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2</data>
+    </node>
+    <node id="INFLAMMATION">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Inflammation is a biological response to harmful stimuli and is a key feature in autoimmune diseases like SLE and SSc</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2</data>
+    </node>
+    <node id="VASCULOPATHY">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Vasculopathy is a disease of the blood vessels and is one of the cardinal features of systemic sclerosis</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2</data>
+    </node>
+    <node id="FIBROSIS">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Fibrosis is the thickening and scarring of connective tissue, often as a result of injury, and is a hallmark of systemic sclerosis</data>
+      <data key="d2">87174642d9d24116b8cc01fca23746f2</data>
+    </node>
+    <node id="HEP-2 CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">HEp-2 cells are a cell line used as an antigen substrate in immunofluorescence assays</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="ANTINUCLEAR ANTIBODIES">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Antinuclear antibodies are autoantibodies that bind to contents of the cell nucleus</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="ANTI-CENTROMERE ANTIBODIES">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-centromere antibodies are autoantibodies that target the centromere of chromosomes
+Anti-centromere antibodies, autoantibodies associated with systemic sclerosis</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="TOPOISOMERASE I">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Topoisomerase I is an enzyme that helps relieve strain in DNA by breaking and rejoining the DNA strand</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="ANTI-RNA POLYMERASE III ANTIBODIES">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-RNA polymerase III antibodies are autoantibodies that target RNA polymerase III</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="RS1234315">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs1234315 of the TNFSF4 gene is associated with systemic sclerosis</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="RS12039904">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs12039904 of the TNFSF4 gene is associated with systemic sclerosis</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="RS2795288">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs2795288 of the TNFSF4 gene is associated with systemic sclerosis</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="RS844665">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs844665 of the TNFSF4 gene is associated with systemic sclerosis
+Single nucleotide polymorphism rs844665 in the TNFSF4 gene, not significantly associated with systemic sclerosis
+Single nucleotide polymorphism rs844665 of the TNFSF4 gene is linked to systemic sclerosis
+Single nucleotide polymorphism rs844665 of the TNFSF4 gene is associated with systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,c89a7a896cf934207d874042e48857da,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </node>
+    <node id="RS10912580">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs10912580 of the TNFSF4 gene is associated with systemic sclerosis</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="PUREGENE GENOMIC DNA ISOLATION KIT">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">PureGene genomic DNA isolation kit is used for extracting genomic DNA from peripheral blood</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="ABI TAQMAN SNP GENOTYPING ASSAY">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">ABI TaqMan SNP genotyping assay is used for genotyping single nucleotide polymorphisms</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="SAS">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">SAS is a software used for statistical analysis</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="HAPLOVIEW">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Haploview is a software used for analyzing linkage disequilibrium and haplotype maps</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="CART">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">CART stands for Classification and Regression Tree analysis, a statistical method used to explore interactions between variables
+Cartesian and regression tree analysis (CART) is used to show interactions between TNFSF4 SNPs in systemic sclerosisCartesian and regression tree analysis is used to show interactions between TNFSF4 SNPs in SSc</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="ANTI-TOPOISOMERASE I ANTIBODIES">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-topoisomerase I antibodies are autoantibodies that target the enzyme topoisomerase I
+Anti-topoisomerase I antibodies, autoantibodies associated with systemic sclerosis</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="PERIPHERAL BLOOD">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Peripheral blood is the blood circulating in the body outside of the heart and lungs, often used for DNA extraction</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="HAPMAP">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">HapMap is a project that provides data on common genetic variants in human populations</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="LOGISTIC REGRESSION">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Logistic regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables
+Logistic regression is used to control for gender and estimate the risk of TNFSF4 SNPs in SScLogistic regression is a statistical method used to estimate the risk of TNFSF4 SNPs in systemic sclerosis</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="HARDY&#8211;WEINBERG EQUILIBRIUM">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Hardy&#8211;Weinberg equilibrium is a principle that describes the genetic variation in a population under ideal conditions</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="LINKAGE DISEQUILIBRIUM">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Linkage disequilibrium refers to the non-random association of alleles at different loci in a given population
+Linkage disequilibrium refers to the non-random association of alleles at different loci</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="HAPLOTYPE">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">A haplotype is a group of genes within an organism that was inherited together from a single parent</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="OMNIBUS TEST">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Omnibus test is a statistical test used to detect differences in overall haplotype frequency profiles between groups</data>
+      <data key="d2">c89a7a896cf934207d874042e48857da</data>
+    </node>
+    <node id="LSSC">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Limited systemic sclerosis, a subset of systemic sclerosis characterized by limited cutaneous involvement
+Limited systemic sclerosis, a subset of SScLimited systemic sclerosis, a subset of systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="DSSC">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Diffuse systemic sclerosis, a subset of systemic sclerosis characterized by extensive cutaneous involvement
+Diffuse systemic sclerosis, a subset of systemic sclerosisDiffuse systemic sclerosis, a subset of SSc</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="ACA">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-centromere antibodies, associated with a subset of systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="ATA">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-topoisomerase antibodies, associated with a subset of systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="ARA">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-RNA polymerase III antibodies, associated with a subset of systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="PULMONARY HYPERTENSION">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Pulmonary hypertension, a type of high blood pressure that affects the arteries in the lungs and the right side of the heart, often associated with systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="C-G-A-A-C">
+      <data key="d0">SNP</data>
+      <data key="d1">A specific 5-marker haplotype in the TNFSF4 gene associated with systemic sclerosis risk</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="G-G-C-G-C">
+      <data key="d0">SNP</data>
+      <data key="d1">A specific 5-marker haplotype in the TNFSF4 gene associated with systemic sclerosis risk</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="G-G-C-G-T">
+      <data key="d0">SNP</data>
+      <data key="d1">A specific 5-marker haplotype in the TNFSF4 gene associated with systemic sclerosis risk</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="G-T-C-G-C">
+      <data key="d0">SNP</data>
+      <data key="d1">A specific 5-marker haplotype in the TNFSF4 gene associated with systemic sclerosis risk</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="C-G-A-G-C">
+      <data key="d0">SNP</data>
+      <data key="d1">A specific 5-marker haplotype in the TNFSF4 gene found to be protective against systemic sclerosis</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="PULMONARY FIBROSIS">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204</data>
+    </node>
+    <node id="GENDER">
+      <data key="d0" />
+      <data key="d1">
+Gender is controlled for in logistic regression analysis of TNFSF4 SNPs in SSc</data>
+      <data key="d2">31513af83d109f0e11eca33fa5fb3204,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="RS855648">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs855648 of the TNFSF4 gene is associated with systemic sclerosis
+Single nucleotide polymorphism rs855648 of the TNFSF4 gene is associated with systemic sclerosis</data>
+      <data key="d2">5db9eda60231516215dcb8b82826f9bc,ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="SYSTEMIC SCLEROSIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Systemic sclerosis, also referred to as SSc, involves the fibrosis of skin and internal organs
+Systemic sclerosis, also known as scleroderma, is a chronic autoimmune disease characterized by fibrosis of the skin and internal organs</data>
+      <data key="d2">5db9eda60231516215dcb8b82826f9bc,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="ANTI-CENTROMERE">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-centromere antibodies are associated with systemic sclerosis
+Antibodies against centromere proteins, associated with systemic sclerosis</data>
+      <data key="d2">5db9eda60231516215dcb8b82826f9bc,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="ANTI-TOPOISOMERASE I">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-topoisomerase I antibodies are associated with systemic sclerosis
+Antibodies against topoisomerase I, associated with systemic sclerosis
+</data>
+      <data key="d2">5db9eda60231516215dcb8b82826f9bc,ab372f2a5df06a33e153fa648bb2b950,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="ANTI-RNA POLYMERASE III">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-RNA polymerase III antibodies are associated with systemic sclerosis
+Antibodies against RNA polymerase III, associated with systemic sclerosis
+Anti-RNA polymerase III is an autoantibody associated with systemic sclerosis</data>
+      <data key="d2">5db9eda60231516215dcb8b82826f9bc,ab372f2a5df06a33e153fa648bb2b950,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="LIMITED SYSTEMIC SCLEROSIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">A subtype of systemic sclerosis characterized by limited skin involvement</data>
+      <data key="d2">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+      <data key="d3">DISEASE</data>
+    </node>
+    <node id="DIFFUSE SYSTEMIC SCLEROSIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">A subtype of systemic sclerosis characterized by widespread skin involvement</data>
+      <data key="d2">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+      <data key="d3">DISEASE</data>
+    </node>
+    <node id="RS944648">
+      <data key="d0">SNP</data>
+      <data key="d1">Single nucleotide polymorphism rs944648 of the TNFSF4 gene is associated with systemic sclerosis
+Single nucleotide polymorphism rs944648 of the TNFSF4 gene is associated with systemic sclerosis
+Single nucleotide polymorphism rs944648 of the AIF1 gene is associated with systemic sclerosis</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1,ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="MHC CLASS II">
+      <data key="d0">GENE</data>
+      <data key="d1">Major histocompatibility complex class II, a gene associated with SSc susceptibilityMajor histocompatibility complex class II, a gene associated with systemic sclerosis susceptibility</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">GENE</data>
+    </node>
+    <node id="AIF1">
+      <data key="d0">GENE</data>
+      <data key="d1">AIF1 is a gene associated with systemic sclerosis susceptibilityAIF1 is a gene associated with SSc susceptibility
+Allograft inflammatory factor 1 (AIF1) is a gene associated with immune response and inflammation</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+      <data key="d3">GENE</data>
+    </node>
+    <node id="T CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">T cells are involved in the immune response and are affected by OX40&#8211;OX40L interactions
+T cell survival is enhanced by the costimulatory signal from OX40/OX40L</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="B CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">B cells are involved in antibody production and are affected by OX40&#8211;OX40L interactions
+B cell proliferation and differentiation are enhanced by OX40/OX40L interaction</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="NK CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Natural killer cells are part of the immune system and express OX40L</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="ENDOTHELIAL CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Endothelial cells are non-immune cells that express OX40L</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="SMOOTH MUSCLE CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Smooth muscle cells are non-immune cells that express OX40L</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="CD4+ T CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">CD4+ T cells express OX40 and are involved in the immune response</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="CD8+ T CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">CD8+ T cells express OX40 and are involved in the immune response</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="TH2">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">T helper 2 cytokines are preferentially promoted by OX40&#8211;OX40L interactionT helper 2 (Th2) response is induced by OX40L alone</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">BIOLOGICALPATHWAY</data>
+    </node>
+    <node id="IL-17">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Interleukin 17 production is negatively regulated by OX40&#8211;OX40L interactionInterleukin 17 (IL-17) production is negatively regulated by OX40&#8211;OX40L interaction
+IL-17 is a pro-inflammatory cytokine regulated by the interaction between OX40 and OX40L</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="FOXP3+ REGULATORY T CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Foxp3+ regulatory T cells are inhibited by OX40&#8211;OX40L interactions</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="DIABETES">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Diabetes is a disease where targeted strategies to block OX40&#8211;OX40L interactions have shown preventive effects
+Diabetes is a chronic disease characterized by high blood sugar levels</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+      <data key="d3">DISEASE</data>
+    </node>
+    <node id="EXPERIMENTAL AUTOIMMUNE ENCEPHALOMYELITIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Experimental autoimmune encephalomyelitis is a model for multiple sclerosis where blocking OX40&#8211;OX40L interactions has shown preventive effects
+Experimental autoimmune encephalomyelitis is an animal model of multiple sclerosis</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+      <data key="d3">DISEASE</data>
+    </node>
+    <node id="MULTIPLE SCLEROSIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Multiple sclerosis is an autoimmune disease where blocking OX40&#8211;OX40L interactions has shown preventive effects</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">DISEASE</data>
+    </node>
+    <node id="C57/BL6">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">C57/BL6 is a mouse strain used in studies of OX40L transgenic mice</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="AUTOIMMUNITY">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Autoimmunity involves immune system attacks on the body's own tissues, potentially regulated by OX40&#8211;OX40L interactions</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">DISEASE</data>
+    </node>
+    <node id="NORTH AMERICAN CAUCASIANS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">North American Caucasians are the population studied for the association of TNFSF4 polymorphisms with SScNorth American Caucasians are the population studied for the association of TNFSF4 polymorphisms with systemic sclerosis</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="AUTOANTIBODY">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Autoantibodies are associated with systemic sclerosis and its subsetsAutoantibodies are associated with SSc and its subsets</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="BENJAMINI AND HOCHBERG FALSE DISCOVERY RATE METHOD">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">A statistical method used to correct p values</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="&#935;2">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Chi-squared test is used to calculate raw p values</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="D&#8217;">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Disequilibrium coefficient used to measure linkage disequilibrium between SNPs</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="R">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">r values measure the strength of linkage disequilibrium between SNPsA measure of strength of linkage disequilibrium between SNPs</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">BIOLOGICALPATHWAY</data>
+    </node>
+    <node id="HAPLOTYPE BLOCK">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Haplotype block structure refers to regions of the genome where genetic variations are inherited togetherA region of the genome where genetic variations are inherited together</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">BIOLOGICALPATHWAY</data>
+    </node>
+    <node id="DENDRITIC CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Dendritic cells express OX40L and regulate T helper responses
+Dendritic cells are unleashed after T-reg cell inactivation, allowing them to induce an adaptive immune response</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="MACROPHAGE">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Macrophages express OX40L and are involved in immune responses</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+      <data key="d3">CELL_LINE</data>
+    </node>
+    <node id="OX40">
+      <data key="d0" />
+      <data key="d1">
+OX40 is a member of the TNF receptor superfamily and generates a potent costimulatory signal
+OX40 is a co-stimulatory T-cell receptor and a member of the tumour necrosis factor superfamily, playing a central role in the pathogenesis of atopic dermatitis and other autoimmune and inflammatory conditions
+OX40, a protein involved in T cell activation and survival, part of the TNF receptor superfamily
+OX40 is a gene that encodes a protein involved in T cell costimulatory signalingOX40 is a protein involved in T cell costimulatory signaling, measured in patients with atopic dermatitis
+OX40, a protein highly expressed by skin-homing T cells and monocytes in atopic dermatitis
+OX40 is a protein that binds to OX40L and is involved in T cell costimulation
+OX40 is a protein that acts as a costimulatory receptor on T cells, promoting their survival and proliferationOX40 is a gene that encodes a protein involved in the costimulatory signal for T cells</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,2712037f85fc28b3e86b92a719cb7a6c,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1,ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="PFDR">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">pFDR refers to corrected p values using the Benjamini and Hochberg false discovery rate method</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="PU">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">pU refers to raw chi-squared p values</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="LD">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Linkage disequilibrium (LD) refers to the non-random association of alleles at different loci</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="D'">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Disequilibrium coefficient D' measures the strength of linkage disequilibrium between SNPs</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="TH1">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">T helper 1 (Th1) response is induced by OX40L in combination with type I interferon</data>
+      <data key="d2">ab372f2a5df06a33e153fa648bb2b950</data>
+    </node>
+    <node id="CTLA4">
+      <data key="d0">GENE</data>
+      <data key="d1">CTLA4 is a gene associated with rheumatoid arthritis</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="PADI4">
+      <data key="d0">GENE</data>
+      <data key="d1">PADI4 is a gene associated with rheumatoid arthritis</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="BANK1">
+      <data key="d0">GENE</data>
+      <data key="d1">BANK1 is a gene associated with systemic lupus erythematosus</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="RHEUMATOID ARTHRITIS">
+      <data key="d0" />
+      <data key="d1">Rheumatoid arthritis, an autoimmune disease
+Rheumatoid arthritis is an autoimmune disease characterized by chronic inflammation of the joints</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c,5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+      <data key="d3">DISEASE</data>
+    </node>
+    <node id="TYPE I DIABETES">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="TYPE 1A DIABETES">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Type 1A diabetes, an autoimmune disease</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="ATHEROTHROMBOSIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Atherothrombosis, a cardiovascular disease</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="VENOUS THROMBOEMBOLISM">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Venous thromboembolism, a condition involving blood clots in veins</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="CAROTID ARTERY DISEASE">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Carotid artery disease, a condition affecting the carotid arteries</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="STROKE">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Stroke, a condition where blood flow to the brain is interrupted</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="CREST SYNDROME">
+      <data key="d0">DISEASE</data>
+      <data key="d1">CREST syndrome, a subset of systemic sclerosis characterized by Calcinosis, Raynaud's phenomenon, Esophageal dysmotility, Sclerodactyly, and Telangiectasia
+CREST syndrome is a subtype of systemic sclerosis characterized by Calcinosis, Raynaud's phenomenon, Esophageal dysmotility, Sclerodactyly, and Telangiectasia</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="ANTI-RNP ANTIBODIES">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-RNP antibodies, autoantibodies associated with systemic lupus erythematosus</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="FIBRILLARIN">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Fibrillarin, a protein targeted by autoantibodies in systemic sclerosis</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="INTERFERON">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Interferon, a protein involved in immune response, associated with systemic lupus erythematosus</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="IRF5 RS2004640">
+      <data key="d0">SNP</data>
+      <data key="d1">IRF5 rs2004640, a functional polymorphism associated with systemic sclerosis and systemic lupus erythematosus</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="FAS -670G&gt;A">
+      <data key="d0">SNP</data>
+      <data key="d1">FAS -670G&gt;A, a polymorphism in the FAS gene promoter region influencing susceptibility to systemic sclerosis</data>
+      <data key="d2">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </node>
+    <node id="SCLERODERMA">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Scleroderma, also referred to as systemic sclerosis, involves the hardening and tightening of the skin and connective tissues</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="ANTICENTROMERE ANTIBODIES">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anticentromere antibodies are autoantibodies associated with CREST syndrome and systemic sclerosis</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="TNF">
+      <data key="d0">GENE</data>
+      <data key="d1">Tumor necrosis factor (TNF) is a gene involved in systemic inflammation and is part of the TNF superfamily
+Tumor Necrosis Factor, a cytokine involved in systemic inflammation and a member of a group of cytokines that stimulate the acute phase reaction</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="T-REG CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">T-reg cell function is inactivated by OX40, unleashing nearby dendritic cells</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="HLA-DQB1">
+      <data key="d0">GENE</data>
+      <data key="d1">HLA-DQB1 is a gene associated with the immune response and is linked to anti-topoisomerase I autoantibody response in scleroderma</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="ANTI-TOPOISOMERASE I AUTOANTIBODY">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-topoisomerase I autoantibody is an autoantibody associated with scleroderma</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="NOD MICE">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">NOD mice are a strain of mice used as a model for studying autoimmune diseases, including diabetes</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="ANTI-OX40 LIGAND MONOCLONAL ANTIBODY">
+      <data key="d0">DRUG</data>
+      <data key="d1">Anti-OX40 ligand monoclonal antibody is a therapeutic agent used to target OX40/OX40L interactions</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="TH-2 CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Th-2 cells are a subset of T helper cells involved in the immune response</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="FOX P3+ REGULATORY T-CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Foxp3+ regulatory T-cells are a subset of T cells involved in maintaining immune tolerance</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="TYPE I IFNS">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Type I interferons are cytokines involved in the regulation of immune responses</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="MEMORY T-CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Memory T-cells are a subset of T cells that provide long-term immunity</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="ALLOANTIBODY">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Alloantibodies are antibodies produced in response to alloantigens, often following repeated alloimmunizations</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="PLASMACYTOID DENDRITIC CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Plasmacytoid dendritic cells are a type of dendritic cell involved in regulating T cell responses</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="TH CELL">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Th cells are a type of T helper cell involved in the immune response</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="BLADDER CANCER">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Bladder cancer is a type of cancer that begins in the cells of the bladder</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="DNA-REPAIR GENES">
+      <data key="d0">GENE</data>
+      <data key="d1">DNA-repair genes are involved in the repair of DNA damage and are linked to cancer predisposition</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="CELL-CYCLE-CONTROL GENES">
+      <data key="d0">GENE</data>
+      <data key="d1">Cell-cycle-control genes regulate the cell cycle and are associated with cancer predisposition</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="FAMILIAL SYSTEMIC SCLEROSIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Familial systemic sclerosis is a form of systemic sclerosis that occurs in families, indicating a genetic component</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="ANTI-NUCLEAR ANTIBODY">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Anti-nuclear antibodies are autoantibodies that target the cell nucleus and are often found in systemic sclerosis patients</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="OX40/OX40L INTERACTION">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">OX40/OX40L interaction is a costimulatory signal crucial for T cell and B cell function</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="TH-2 PRIMING">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Th-2 priming is the process of activating Th-2 cells, which is influenced by OX40 ligand</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="MEMORY INDUCTION">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Memory induction is the process of forming long-lasting immune memory, influenced by OX40 ligand</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="PATHOGENIC TH-2 CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Pathogenic Th-2 cells are a subset of T helper cells involved in allergic responses and asthma</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="AUTOIMMUNE-LIKE DISEASES">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Autoimmune-like diseases are conditions that resemble autoimmune diseases, induced by constitutive OX40/OX40 ligand interaction</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="SERUM SOLUBLE OX40">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Serum soluble OX40 is a form of OX40 found in the blood of systemic sclerosis patients</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="PROGRESSIVE SYSTEMIC SCLEROSIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Progressive systemic sclerosis is a severe form of systemic sclerosis characterized by rapid progression and extensive fibrosis</data>
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="ANGIOGENESIS">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </node>
+    <node id="ATOPIC DERMATITIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Atopic dermatitis (AD) is a chronic, or chronically relapsing, inflammatory skin disease associated with asthma and allergic rhinitis, dominated by Th2 cells</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="ASTHMA">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Asthma is a chronic inflammatory disease of the airways associated with atopic dermatitis
+Asthma is a chronic respiratory condition characterized by airway inflammation and hyperreactivity
+Asthma, a common comorbidity in patients with atopic dermatitis, characterized by airway inflammation and hyperreactivity
+A chronic respiratory condition characterized by airway inflammation and hyperreactivity
+Asthma is a chronic inflammatory disease of the airways that causes breathing difficulties</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,2712037f85fc28b3e86b92a719cb7a6c,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="ALLERGIC RHINITIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Allergic rhinitis is an allergic reaction that causes sneezing, congestion, and runny nose, often associated with atopic dermatitis
+An allergic reaction that causes sneezing, congestion, and a runny nose</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd,a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="TH2 CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Th2 cells are a subset of T cells that play a central role in the pathogenesis of atopic dermatitis by driving the inflammatory response
+Th2 cells are a subset of T cells involved in the immune response, particularly in the context of allergies and asthma</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c,a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="SOX40">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Soluble OX40 (sOX40) is a form of OX40 that has an anti-inflammatory effect when binding to the membrane-bound form of OX40L
+Soluble OX40, a form of the OX40 protein that can be measured in serum and is involved in immune response
+Soluble OX40, a form of the OX40 protein found in serum, measured in patients with atopic dermatitis
+Soluble OX40, a form of the OX40 protein found in serum, associated with atopic comorbidities and disease activity in children
+Soluble OX40, a form of OX40 found in serum</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="CD4+ T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">CD4+ T cells are a type of T cell that expresses OX40 and is involved in the immune response in atopic dermatitis</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="IGE">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">IgE is an antibody that is elevated in up to 80% of patients with atopic dermatitis and is involved in the interaction between mast cells and T cells
+Immunoglobulin E, an antibody associated with allergic reactions and measured in patients with atopic dermatitis
+Immunoglobulin E, an antibody associated with allergic reactions, measured in the study but not correlated with OX40 expression
+Immunoglobulin E, an antibody associated with allergic reactions</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="MAST CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Mast cells are immune cells that express OX40L and are involved in the production of Th2 driving cytokines such as IL-4 and IL-25
+Cells in the skin expressing OX40L, confirmed by positive tryptase staining in AD patients
+Cells that release histamine and other substances during inflammatory and allergic reactions, confirmed by tryptase staining
+Mast cells are immune cells involved in allergic reactions and inflammation</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="IL-4">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Interleukin-4 (IL-4) is a cytokine produced by mast cells that drives the Th2 response in atopic dermatitis</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="IL-25">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Interleukin-25 (IL-25) is a cytokine produced by mast cells that drives the Th2 response in atopic dermatitis</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="SCORAD">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">SCORing Atopic Dermatitis (SCORAD) is an index used to assess the severity of atopic dermatitis
+Subjective SCORing Atopic Dermatitis, a clinical tool used to assess the severity of atopic dermatitis
+SCORAD index, a clinical tool used to assess the severity of atopic dermatitis</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="PBMCS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Peripheral blood mononuclear cells (PBMCs) are blood cells that are critical for immune response studies in atopic dermatitis
+Peripheral Blood Mononuclear Cells, a type of blood cell that is critical in immune response and used in various immunological studies
+Peripheral Blood Mononuclear Cells, used in immunophenotyping to study OX40 and OX40L expression in atopic dermatitis</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="ECZEMA">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Eczema is a symptom of atopic dermatitis characterized by inflamed, itchy, cracked, and rough skin</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="PRURITUS">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Pruritus is an intense itching sensation, a common symptom of atopic dermatitis</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="DRY SKIN">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Dry skin is a symptom of atopic dermatitis caused by profound skin inflammation and epidermal barrier dysfunction</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="MEMORY T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Memory T cells are believed to be central for the chronicity of atopic dermatitis</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="APC">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Antigen-presenting cells (APC) express OX40L and are involved in the immune response in atopic dermatitis</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="SOX40L">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Soluble OX40L (sOX40L) is a form of OX40L that can bind to sOX40 and has an anti-inflammatory effect
+Soluble OX40 Ligand, a form of the OX40L protein that can be measured in serum and is involved in immune response
+Soluble OX40L, a form of the OX40L protein found in serum, measured in patients with atopic dermatitis
+Soluble OX40L, a form of the OX40 ligand found in serum, not significantly different between groups in the study
+Soluble OX40L, a form of OX40L found in serum</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="HANIFIN &amp; RAJKA CRITERIA">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">The Hanifin &amp; Rajka criteria are used for diagnosing atopic dermatitis</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="PLASMA">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Plasma is the liquid component of blood, collected from patients for various analyses in atopic dermatitis studies</data>
+      <data key="d2">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </node>
+    <node id="AD">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Atopic Dermatitis, a chronic inflammatory skin disease characterized by itchy and inflamed skin
+Atopic Dermatitis, a chronic inflammatory skin disease characterized by itchy and inflamed skin
+Atopic Dermatitis, a chronic inflammatory skin disease characterized by itchy and inflamed skin
+Atopic Dermatitis, a chronic inflammatory skin disease
+Atopic Dermatitis, a chronic inflammatory skin disease</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,2712037f85fc28b3e86b92a719cb7a6c,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="HC">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Healthy Controls, individuals without atopic diseases or systemic inflammatory diseases used as a comparison group in studies
+Healthy Controls, a group of individuals without atopic dermatitis used for comparison in studies
+Healthy Controls, individuals without atopic dermatitis used as a comparison group in the study
+Healthy Controls, individuals without the disease used as a comparison group in studies</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="CD4">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CD4, a glycoprotein found on the surface of immune cells such as T helper cells, monocytes, macrophages, and dendritic cells</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </node>
+    <node id="CD8">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CD8, a glycoprotein found on the surface of cytotoxic T cells, which are involved in the immune response</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="CD14">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CD14, a co-receptor for the detection of bacterial lipopolysaccharide, found on the surface of macrophages</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="CD45RO">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CD45RO, an isoform of the CD45 protein found on the surface of memory T cells</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="CD56">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CD56, a neural cell adhesion molecule found on the surface of natural killer cells and some T cells</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="CLA">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Cutaneous Lymphocyte Antigen, a protein involved in the homing of T cells to the skin</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="TRYPTASE">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Tryptase, a protease enzyme found in mast cells, involved in allergic and inflammatory responses
+Tryptase is a protein involved in allergic and inflammatory responses, often measured in studies related to atopic dermatitis
+Tryptase is an enzyme used to confirm the presence of mast cells</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd</data>
+      <data key="d3">PROTEIN</data>
+    </node>
+    <node id="FICOLL-PAQUE">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Ficoll-Paque, a density gradient medium used for the isolation of PBMCs</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="FORMALDEHYDE">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Formaldehyde, a chemical used for tissue fixation in histology and pathology</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="BOVINE SERUM ALBUMIN">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Bovine Serum Albumin, a protein used in various laboratory procedures to stabilize enzymes and other proteins</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="SODIUM AZIDE">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Sodium Azide, a chemical used as a preservative in laboratory reagents</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="PARAFFIN">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Paraffin, a waxy substance used to embed tissue samples for histological analysis</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="XYLENE">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Xylene, a solvent used in the deparaffinization of tissue sections</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="ETHANOL">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Ethanol, a solvent used in the rehydration of tissue sections</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="CITRATE-PHOSPHATE BUFFER">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Citrate-Phosphate Buffer, a buffer solution used for antigen retrieval in histology</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="DONKEY SERUM">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Donkey Serum, used as a blocking agent in immunohistochemistry to prevent non-specific binding</data>
+      <data key="d2">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="ALEXA 488">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Alexa 488 is a fluorescent dye used for labeling antibodies in immunofluorescence studies</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="ALEXA 647">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Alexa 647 is a fluorescent dye used for labeling antibodies in immunofluorescence studies</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="DAPI">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">DAPI is a fluorescent stain that binds strongly to DNA, used in fluorescence microscopy
+4',6-diamidino-2-phenylindole, a fluorescent stain that binds strongly to DNA</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b,7a1160d4230f62889d47499ed90adcdd</data>
+    </node>
+    <node id="RHINITIS">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Rhinitis is an inflammation of the nasal mucous membrane, often associated with allergic reactions</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="PERIPHERAL BLOOD MONONUCLEAR CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Peripheral blood mononuclear cells (PBMCs) are blood cells with a single round nucleus, used in immunological studies</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="SPEARMAN&#8217;S RHO">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Spearman&#8217;s rho is a statistical measure of rank correlation, used to assess the relationship between two variables</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="WILCOXON SIGNED-RANK TEST">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">The Wilcoxon signed-rank test is a non-parametric statistical test used to compare paired data</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="MANN-WHITNEY RANK SUM TEST">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">The Mann-Whitney rank sum test is a non-parametric test used to compare unpaired data</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="PRISM 6">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Prism 6 is a software used for statistical analysis and graphing in scientific research</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="MOUNTING MEDIUM">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Mounting Medium is a substance used to preserve and stabilize samples on microscope slides</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="EPR8476">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">EPR8476 is a monoclonal rabbit anti-tryptase antibody used in immunohistochemistry</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="IGG1">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">IgG1 is an isotype control antibody used to ensure specificity in immunological assays</data>
+      <data key="d2">05fe283d6fa879523f3ab153815ac64b</data>
+    </node>
+    <node id="T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">T cells, a type of lymphocyte involved in the immune response, expressing OX40 in atopic dermatitis
+T cells are a type of lymphocyte that play a central role in cell-mediated immunity</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c,919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="MONOCYTES">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Monocytes, a type of white blood cell expressing high levels of OX40L in atopic dermatitis
+A type of white blood cell that expresses OX40L in atopic dermatitis</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="ADULTS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Adults, a group of patients with atopic dermatitis studied for serum sOX40 levels and disease activity</data>
+      <data key="d2">919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="CD4+CD45RO+CLA+ T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">A subset of T cells expressing OX40, found in higher amounts in AD patients compared to healthy controls
+A subset of T cells expressing CD4, CD45RO, and cutaneous lymphocyte-associated antigen (CLA)</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="CD4+CD45RO+CLA- T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">A subset of T cells expressing OX40, found in higher amounts in AD patients compared to healthy controls</data>
+      <data key="d2">919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="CD8+CD45RO+CLA+ T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">A subset of T cells expressing OX40, found in lower amounts in AD patients compared to healthy controls</data>
+      <data key="d2">919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="CD8+CD45RO+CLA- T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">A subset of T cells expressing OX40, found in lower amounts in AD patients compared to healthy controls</data>
+      <data key="d2">919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="MFI">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Median Fluorescence Intensity, used to measure the amount of OX40 expression per cell
+Median fluorescence intensity, a measure used in flow cytometry to quantify protein expression</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="SKIN">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Skin biopsies from AD patients and healthy controls used to study OX40 and OX40L expression</data>
+      <data key="d2">919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="CHILDREN">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">919f7083e77a7d3378489efeffa0faed</data>
+    </node>
+    <node id="EASI">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Eczema Area and Severity Index, a tool used to measure the extent and severity of eczema
+Eczema Area and Severity Index, a tool used to measure the extent and severity of eczema</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c,7a1160d4230f62889d47499ed90adcdd</data>
+    </node>
+    <node id="ELISA">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Enzyme-linked immunoassay, a test used to measure serum levels of proteins</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd</data>
+    </node>
+    <node id="TNF-SUPER FAMILY">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Tumor necrosis factor superfamily, a group of proteins involved in inflammation and immune regulation</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd</data>
+    </node>
+    <node id="B CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">A type of white blood cell that can express OX40L and is involved in immune responses</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd</data>
+    </node>
+    <node id="SKIN-HOMING CD4+ T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">A subset of T cells that migrate to the skin and express OX40 in atopic dermatitis</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd</data>
+    </node>
+    <node id="INFLAMMATORY SITE">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">The location in the body where inflammation occurs, often involving immune cell migration and activation</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd</data>
+    </node>
+    <node id="LOCAL INFLAMMATION">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">The localized immune response in the skin of patients with atopic dermatitis</data>
+      <data key="d2">7a1160d4230f62889d47499ed90adcdd</data>
+    </node>
+    <node id="BIOMARKERS">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Biomarkers are measurable indicators of a biological condition or disease</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+      <data key="d3">CHEMICAL</data>
+    </node>
+    <node id="SKIN THICKNESS">
+      <data key="d0">SYMPTOM</data>
+      <data key="d1">Skin thickness is a measurable parameter that can indicate inflammation or other skin conditions</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+      <data key="d3">SYMPTOM</data>
+    </node>
+    <node id="INFLAMMATORY REACTION">
+      <data key="d0">BIOLOGICALPATHWAY</data>
+      <data key="d1">Inflammatory reaction is a biological pathway involving the immune response to infection or injury</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+      <data key="d3">BIOLOGICALPATHWAY</data>
+    </node>
+    <node id="ANTI-OX40 THERAPY">
+      <data key="d0">DRUG</data>
+      <data key="d1">Anti-OX40 therapy is a treatment targeting the OX40-OX40L interaction to modulate immune responses</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+      <data key="d3">DRUG</data>
+    </node>
+    <node id="ATOPIC CO-MORBIDITIES">
+      <data key="d0">DISEASE</data>
+      <data key="d1">Atopic co-morbidities are additional atopic conditions that occur alongside a primary atopic disease like AD</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+      <data key="d3">DISEASE</data>
+    </node>
+    <node id="GBR 830">
+      <data key="d0">DRUG</data>
+      <data key="d1">GBR 830 is an anti-OX40 drug that improves skin gene signatures and clinical scores in patients with atopic dermatitis</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+      <data key="d3">DRUG</data>
+    </node>
+    <node id="BCL-XL">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Bcl-xL is a protein that inhibits cell apoptosis and is promoted by OX40</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <node id="BCL-2">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Bcl-2 is a protein that regulates cell death by inhibiting apoptosis and is promoted by OX40</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <node id="CD4 T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">CD4 T cells are a type of immune cell that are essential for initiating and orchestrating the immune response</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <node id="MEMORY CD4 T CELLS">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">Memory CD4 T cells are a subset of CD4 T cells that provide long-term immunity by remembering past infections</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <node id="LDL RECEPTOR-DEFICIENT MICE">
+      <data key="d0">CELL_LINE</data>
+      <data key="d1">LDL receptor-deficient mice are genetically modified mice used to study atherosclerosis and other lipid-related diseases</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <node id="FC EPSILON RI">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">Fc epsilon RI is a high-affinity receptor for the Fc region of immunoglobulin E (IgE), involved in allergic responses</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <node id="INTERLEUKIN-25">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Interleukin-25 is a cytokine produced by mast cells upon activation and plays a role in the immune response</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <node id="IGG">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Immunoglobulin G, a type of antibody found in blood and extracellular fluid, which controls infection of body tissues</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <node id="SERUM OX40 LIGAND">
+      <data key="d0">CHEMICAL</data>
+      <data key="d1">Serum OX40 ligand levels can be a potential biomarker of severity and persistence in asthmatic children</data>
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <node id="OX40-OX40L">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </node>
+    <edge source="TNFSF4" target="OX40L">
+      <data key="d4">18.0</data>
+      <data key="d5">TNFSF4 encodes the protein OX40L
+TNFSF4 encodes the protein OX40L</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="TNFSF4" target="SLE">
+      <data key="d4">23.0</data>
+      <data key="d5">TNFSF4 is identified as a susceptibility gene for systemic lupus erythematosus
+TNFSF4 is associated with systemic lupus erythematosus
+TNFSF4 is associated with systemic lupus erythematosus</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="TNFSF4" target="SSC">
+      <data key="d4">24.0</data>
+      <data key="d5">TNFSF4 is associated with susceptibility to systemic sclerosis
+TNFSF4 is associated with systemic sclerosis susceptibility
+TNFSF4 is associated with systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="TNFSF4" target="AUTOIMMUNE DISEASES">
+      <data key="d4">8.0</data>
+      <data key="d5">TNFSF4 is associated with susceptibility to multiple autoimmune diseases</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="TNFSF4" target="ATHEROSCLEROSIS">
+      <data key="d4">7.0</data>
+      <data key="d5">Polymorphisms in TNFSF4 have been associated with atherosclerosis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="TNFSF4" target="RS1234314">
+      <data key="d4">24.0</data>
+      <data key="d5">TNFSF4 and SNP rs1234314 are associated with systemic sclerosis
+TNFSF4 and SNP rs1234314 are associated with systemic sclerosis susceptibility
+TNFSF4 and SNP rs1234314 are associated with systemic sclerosis susceptibility</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="RS1234315">
+      <data key="d4">8.0</data>
+      <data key="d5">TNFSF4 and SNP rs1234315 are associated with systemic sclerosis</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="RS2205960">
+      <data key="d4">24.0</data>
+      <data key="d5">TNFSF4 and SNP rs2205960 are associated with systemic sclerosis
+TNFSF4 and SNP rs2205960 are associated with systemic sclerosis susceptibility
+TNFSF4 and SNP rs2205960 are associated with systemic sclerosis susceptibility</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="RS844644">
+      <data key="d4">23.0</data>
+      <data key="d5">TNFSF4 and SNP rs844644 are associated with systemic sclerosis
+TNFSF4 and SNP rs844644 are associated with systemic sclerosis susceptibility
+TNFSF4 and SNP rs844644 are linked to systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="RS12039904">
+      <data key="d4">8.0</data>
+      <data key="d5">TNFSF4 and SNP rs12039904 are associated with systemic sclerosis</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="RS2795288">
+      <data key="d4">8.0</data>
+      <data key="d5">TNFSF4 and SNP rs2795288 are associated with systemic sclerosis</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="RS844648">
+      <data key="d4">24.0</data>
+      <data key="d5">TNFSF4 and SNP rs844648 are associated with systemic sclerosis
+TNFSF4 and SNP rs844648 are associated with systemic sclerosis susceptibility
+TNFSF4 and SNP rs844648 are linked to systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="RS844665">
+      <data key="d4">21.0</data>
+      <data key="d5">TNFSF4 and SNP rs844665 are associated with systemic sclerosis
+TNFSF4 and SNP rs844665 are not significantly associated with systemic sclerosis
+TNFSF4 and SNP rs844665 are linked to systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="RS10912580">
+      <data key="d4">8.0</data>
+      <data key="d5">TNFSF4 and SNP rs10912580 are associated with systemic sclerosis</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="PUREGENE GENOMIC DNA ISOLATION KIT">
+      <data key="d4">7.0</data>
+      <data key="d5">PureGene genomic DNA isolation kit is used to extract DNA for genotyping TNFSF4 SNPs</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="ABI TAQMAN SNP GENOTYPING ASSAY">
+      <data key="d4">7.0</data>
+      <data key="d5">ABI TaqMan SNP genotyping assay is used to genotype TNFSF4 SNPs</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="SAS">
+      <data key="d4">7.0</data>
+      <data key="d5">SAS software is used for statistical analysis of TNFSF4 SNP data</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="HAPLOVIEW">
+      <data key="d4">7.0</data>
+      <data key="d5">Haploview is used to analyze linkage disequilibrium of TNFSF4 SNPs</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="CART">
+      <data key="d4">15.0</data>
+      <data key="d5">CART analysis is used to explore interactions between TNFSF4 SNPs
+CART analysis shows interactions between TNFSF4 SNPs in SScCART analysis shows interactions between TNFSF4 SNPs in systemic sclerosis</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950,c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="HAPMAP">
+      <data key="d4">7.0</data>
+      <data key="d5">HapMap data is used to validate allele calls for TNFSF4 SNPs</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="HARDY&#8211;WEINBERG EQUILIBRIUM">
+      <data key="d4">7.0</data>
+      <data key="d5">Hardy&#8211;Weinberg equilibrium testing is performed on TNFSF4 SNPs</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="LINKAGE DISEQUILIBRIUM">
+      <data key="d4">7.0</data>
+      <data key="d5">Linkage disequilibrium is calculated for TNFSF4 SNPs</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="HAPLOTYPE">
+      <data key="d4">7.0</data>
+      <data key="d5">Haplotype frequency tests are performed on TNFSF4 SNPs</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TNFSF4" target="RS855648">
+      <data key="d4">8.0</data>
+      <data key="d5">TNFSF4 and SNP rs855648 are linked to systemic sclerosis</data>
+      <data key="d6">5db9eda60231516215dcb8b82826f9bc</data>
+    </edge>
+    <edge source="TNFSF4" target="NORTH AMERICAN CAUCASIANS">
+      <data key="d4">14.0</data>
+      <data key="d5">TNFSF4 polymorphisms are associated with SSc in North American CaucasiansTNFSF4 polymorphisms are associated with systemic sclerosis in North American Caucasians</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="TNFSF4" target="LOGISTIC REGRESSION">
+      <data key="d4">14.0</data>
+      <data key="d5">Logistic regression is used to estimate the risk of TNFSF4 SNPs in systemic sclerosisLogistic regression is used to estimate the risk of TNFSF4 SNPs in SSc</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="TNFSF4" target="RA">
+      <data key="d4">7.0</data>
+      <data key="d5">TNFSF4 is associated with rheumatoid arthritis</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="TNFSF4" target="TYPE 1A DIABETES">
+      <data key="d4">7.0</data>
+      <data key="d5">TNFSF4 is associated with type 1A diabetes</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="TNFSF4" target="RHEUMATOID ARTHRITIS">
+      <data key="d4">7.0</data>
+      <data key="d5">TNFSF4 is associated with rheumatoid arthritis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="TNFSF4" target="ATHEROTHROMBOSIS">
+      <data key="d4">7.0</data>
+      <data key="d5">TNFSF4 is associated with atherothrombosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="TNFSF4" target="VENOUS THROMBOEMBOLISM">
+      <data key="d4">7.0</data>
+      <data key="d5">TNFSF4 is associated with venous thromboembolism</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="TNFSF4" target="CAROTID ARTERY DISEASE">
+      <data key="d4">7.0</data>
+      <data key="d5">TNFSF4 is associated with carotid artery disease</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="TNFSF4" target="STROKE">
+      <data key="d4">7.0</data>
+      <data key="d5">TNFSF4 is associated with stroke</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="OX40L" target="T CELL">
+      <data key="d4">24.0</data>
+      <data key="d5">OX40L is expressed on T cells
+OX40L enhances T cell survival</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="B CELL">
+      <data key="d4">24.0</data>
+      <data key="d5">OX40L is expressed on B cells
+OX40L enhances B cell proliferation and differentiation</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="NK CELL">
+      <data key="d4">16.0</data>
+      <data key="d5">OX40L is expressed on natural killer cells</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="ENDOTHELIAL CELL">
+      <data key="d4">14.0</data>
+      <data key="d5">OX40L is expressed on endothelial cells</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="SMOOTH MUSCLE CELL">
+      <data key="d4">14.0</data>
+      <data key="d5">OX40L is expressed on smooth muscle cells</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="TH2">
+      <data key="d4">14.0</data>
+      <data key="d5">OX40L interaction promotes T helper 2 cytokinesOX40L alone induces a Th2 response</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="IL-17">
+      <data key="d4">22.0</data>
+      <data key="d5">OX40L interaction negatively regulates interleukin 17 production
+OX40L regulates IL-17 production</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="FOXP3+ REGULATORY T CELL">
+      <data key="d4">14.0</data>
+      <data key="d5">OX40L interaction inhibits Foxp3+ regulatory T cells</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="TYPE I INTERFERON">
+      <data key="d4">14.0</data>
+      <data key="d5">OX40L and type I interferon together may induce a Th1 response</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="DIABETES">
+      <data key="d4">14.0</data>
+      <data key="d5">Blocking OX40L interactions has shown preventive effects in diabetes</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="EXPERIMENTAL AUTOIMMUNE ENCEPHALOMYELITIS">
+      <data key="d4">14.0</data>
+      <data key="d5">Blocking OX40L interactions has shown preventive effects in experimental autoimmune encephalomyelitis</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="MULTIPLE SCLEROSIS">
+      <data key="d4">14.0</data>
+      <data key="d5">Blocking OX40L interactions has shown preventive effects in multiple sclerosis</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="C57/BL6">
+      <data key="d4">14.0</data>
+      <data key="d5">OX40L transgenic mice on the C57/BL6 background develop organ-specific inflammation</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="AUTOIMMUNITY">
+      <data key="d4">16.0</data>
+      <data key="d5">OX40L interactions are involved in the development of autoimmunity</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="DENDRITIC CELL">
+      <data key="d4">16.0</data>
+      <data key="d5">Dendritic cells express OX40L and regulate T helper responses</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="MACROPHAGE">
+      <data key="d4">2.0</data>
+      <data key="d5">Macrophages express OX40L and are involved in immune responses</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="TH1">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40L in combination with type I interferon may induce a Th1 response</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="OX40L" target="OX40">
+      <data key="d4">81.0</data>
+      <data key="d5">OX40 binds to OX40L and generates a costimulatory signal
+OX40 and OX40L interact to play a central role in the pathogenesis of atopic dermatitis by generating Th2 memory cells
+OX40 binds to OX40 Ligand and is involved in T cell activation and survival
+OX40 binds to OX40L to generate a costimulatory signal
+OX40 and OX40L are co-localized in atopic dermatitis
+OX40 binds to OX40L and is involved in T cell costimulation
+OX40 and OX40L interact to play a role in T cell activation and survival</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b,2712037f85fc28b3e86b92a719cb7a6c,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed,a98a120ac25d0f8a533fcdcd479913b1,f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="ANTI-OX40 LIGAND MONOCLONAL ANTIBODY">
+      <data key="d4">8.0</data>
+      <data key="d5">Anti-OX40 ligand monoclonal antibody targets OX40/OX40L interactions</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="TH-2 CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40L is critical for the development of pathogenic Th-2 cells</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="FOX P3+ REGULATORY T-CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40L affects the induction of Foxp3+ regulatory T-cells</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="TYPE I IFNS">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40L and type I IFNs regulate Th cell responses</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="MEMORY T-CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40L expands memory T-cells</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="ALLOANTIBODY">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40L on B cells is essential for persistent alloantibody production</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="PLASMACYTOID DENDRITIC CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40L on plasmacytoid dendritic cells regulates Th cell responses</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="TH CELL">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40L is involved in the regulation of Th cell responses</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="OX40/OX40L INTERACTION">
+      <data key="d4">9.0</data>
+      <data key="d5">OX40L is part of the OX40/OX40L interaction</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="TH-2 PRIMING">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40L acts as a costimulatory signal for Th-2 priming</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="MEMORY INDUCTION">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40L is involved in memory induction</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="PATHOGENIC TH-2 CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40L is critical for the development of pathogenic Th-2 cells</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40L" target="ATOPIC DERMATITIS">
+      <data key="d4">9.0</data>
+      <data key="d5">OX40L is crucial for the generation of Th2 memory cells, which are central to the pathogenesis of atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="OX40L" target="ALEXA 488">
+      <data key="d4">7.0</data>
+      <data key="d5">Alexa 488 is used to label antibodies against OX40L</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="OX40L" target="IGG1">
+      <data key="d4">6.0</data>
+      <data key="d5">IgG1 is used as an isotype control in assays involving OX40L</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="OX40L" target="AD">
+      <data key="d4">24.0</data>
+      <data key="d5">OX40L levels are measured in patients with atopic dermatitis
+OX40L is highly expressed by monocytes in atopic dermatitis
+OX40L is co-localized with OX40 in the skin of patients with atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b,2712037f85fc28b3e86b92a719cb7a6c,919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40L" target="MONOCYTES">
+      <data key="d4">14.0</data>
+      <data key="d5">OX40L is highly expressed by monocytes in AD
+OX40L is expressed primarily by monocytes in atopic dermatitis</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40L" target="PBMCS">
+      <data key="d4">6.0</data>
+      <data key="d5">OX40L expression is studied in PBMCs from AD patients</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40L" target="HC">
+      <data key="d4">6.0</data>
+      <data key="d5">OX40L expression is compared between AD patients and healthy controls</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40L" target="SKIN">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40L and OX40 are co-localized in the skin of AD patients</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40L" target="MAST CELLS">
+      <data key="d4">15.0</data>
+      <data key="d5">OX40L is expressed by mast cells in the skin of AD patients
+OX40L-expressing cells in the dermis are confirmed to be mast cells</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40L" target="IGE">
+      <data key="d4">7.0</data>
+      <data key="d5">Increased expression of OX40L on B cells is associated with the level of total IgE in allergic asthma patients</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="OX40L" target="TRYPTASE">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40L-expressing cells are confirmed to be mast cells by positive tryptase staining</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="OX40L" target="MFI">
+      <data key="d4">6.0</data>
+      <data key="d5">Median fluorescence intensity of OX40L showed no difference between patients with atopic dermatitis and healthy controls</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="OX40L" target="DAPI">
+      <data key="d4">6.0</data>
+      <data key="d5">Nuclear staining was carried out by DAPI to identify OX40L-positive cells</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="OX40L" target="B CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">Increased expression of OX40L on B cells is associated with allergic asthma</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="OX40L" target="TH2 CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40L is crucial for the development of pathogenic Th2 cells</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="OX40L" target="RHEUMATOID ARTHRITIS">
+      <data key="d4">7.0</data>
+      <data key="d5">Soluble OX40L is associated with the presence of autoantibodies in early rheumatoid arthritis</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="OX40L" target="ASTHMA">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40L is an important inflammatory mediator in adult bronchial asthma</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="SLE" target="PTPN22">
+      <data key="d4">7.0</data>
+      <data key="d5">PTPN22 is associated with the development of systemic lupus erythematosus</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SLE" target="STAT4">
+      <data key="d4">14.0</data>
+      <data key="d5">STAT4 is a susceptibility gene for systemic lupus erythematosus
+STAT4 influences the genetic predisposition to systemic lupus erythematosus</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SLE" target="IRF5">
+      <data key="d4">14.0</data>
+      <data key="d5">IRF5 is associated with polymorphisms linked to systemic lupus erythematosus
+IRF5 defines risk and protective haplotypes for human lupus</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SLE" target="FAS">
+      <data key="d4">8.0</data>
+      <data key="d5">FAS is associated with polymorphisms linked to systemic lupus erythematosus
+FAS promoter region polymorphism influences susceptibility to systemic lupus erythematosus</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SLE" target="INTERFERON REGULATORY FACTOR 5">
+      <data key="d4">7.0</data>
+      <data key="d5">IRF5 is associated with polymorphisms linked to systemic lupus erythematosus</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SLE" target="TYPE I INTERFERON">
+      <data key="d4">7.0</data>
+      <data key="d5">Type I interferon pathway is upregulated in patients with systemic lupus erythematosus</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SLE" target="ANTIBODIES">
+      <data key="d4">8.0</data>
+      <data key="d5">Patients with systemic lupus erythematosus have a myriad of circulating antinuclear antibodies</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SLE" target="SSC">
+      <data key="d4">6.0</data>
+      <data key="d5">Patients with systemic sclerosis were excluded if they met criteria for systemic lupus erythematosus</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="SLE" target="BANK1">
+      <data key="d4">7.0</data>
+      <data key="d5">BANK1 is associated with systemic lupus erythematosus</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="SLE" target="ANTI-RNP ANTIBODIES">
+      <data key="d4">7.0</data>
+      <data key="d5">Anti-RNP antibodies are associated with systemic lupus erythematosus</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="SLE" target="INTERFERON">
+      <data key="d4">7.0</data>
+      <data key="d5">Interferon is involved in immune response in systemic lupus erythematosus</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="SLE" target="IRF5 RS2004640">
+      <data key="d4">7.0</data>
+      <data key="d5">IRF5 rs2004640 is associated with systemic lupus erythematosus</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="SSC" target="RS1234314">
+      <data key="d4">45.0</data>
+      <data key="d5">SNP rs1234314 is associated with susceptibility to systemic sclerosis
+SNP rs1234314 is associated with systemic sclerosis susceptibility
+SNP rs1234314 is associated with systemic sclerosis susceptibility
+SNP rs1234314 is associated with systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="SSC" target="RS2205960">
+      <data key="d4">52.0</data>
+      <data key="d5">SNP rs2205960 is associated with susceptibility to systemic sclerosis
+SNP rs2205960 is associated with systemic sclerosis susceptibility
+SNP rs2205960 is associated with systemic sclerosis susceptibility
+SNP rs2205960 is associated with systemic sclerosis
+SNP rs2205960 is associated with systemic sclerosis
+SNP rs2205960 is associated with systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5639a5e5649646c1e4c8deb1e1f0a1b1,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="SSC" target="RS844648">
+      <data key="d4">45.0</data>
+      <data key="d5">SNP rs844648 is associated with susceptibility to systemic sclerosis
+SNP rs844648 is associated with systemic sclerosis susceptibility
+SNP rs844648 is associated with systemic sclerosis susceptibility
+SNP rs844648 is associated with systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="SSC" target="RS844644">
+      <data key="d4">43.0</data>
+      <data key="d5">SNP rs844644 is protective against systemic sclerosis
+SNP rs844644 is associated with systemic sclerosis susceptibility
+SNP rs844644 is associated with systemic sclerosis susceptibility
+SNP rs844644 is associated with systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,87174642d9d24116b8cc01fca23746f2,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="SSC" target="IRF5">
+      <data key="d4">14.0</data>
+      <data key="d5">IRF5 is associated with polymorphisms linked to systemic sclerosis
+IRF5 is a gene associated with systemic sclerosis susceptibility</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="FAS">
+      <data key="d4">15.0</data>
+      <data key="d5">FAS is associated with polymorphisms linked to systemic sclerosis
+FAS is a gene associated with systemic sclerosis susceptibility
+FAS promoter region polymorphism influences susceptibility to systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1,87174642d9d24116b8cc01fca23746f2,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="MYOSITIS">
+      <data key="d4">13.0</data>
+      <data key="d5">Patients with systemic sclerosis may also have symptoms of myositis
+Myositis can be a symptom in patients with systemic sclerosis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="SSC" target="SJOGREN'S SYNDROME">
+      <data key="d4">13.0</data>
+      <data key="d5">Patients with systemic sclerosis may also have symptoms of Sjogren's syndrome
+Patients with systemic sclerosis may also have Sjogren's syndrome</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2,c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="SSC" target="INTERFERON REGULATORY FACTOR 5">
+      <data key="d4">7.0</data>
+      <data key="d5">IRF5 is associated with polymorphisms linked to systemic sclerosis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SSC" target="TYPE I INTERFERON">
+      <data key="d4">7.0</data>
+      <data key="d5">Type I interferon pathway is upregulated in patients with systemic sclerosis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SSC" target="ANTIBODIES">
+      <data key="d4">8.0</data>
+      <data key="d5">Patients with systemic sclerosis have a myriad of circulating antinuclear antibodies</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SSC" target="EXTRACELLULAR MATRIX">
+      <data key="d4">8.0</data>
+      <data key="d5">Excessive extracellular matrix deposition is a cardinal feature of systemic sclerosis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SSC" target="INFLAMMATION">
+      <data key="d4">8.0</data>
+      <data key="d5">Inflammation is a cardinal feature of systemic sclerosis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SSC" target="VASCULOPATHY">
+      <data key="d4">8.0</data>
+      <data key="d5">Vasculopathy is a cardinal feature of systemic sclerosis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SSC" target="FIBROSIS">
+      <data key="d4">1.0</data>
+      <data key="d5">Fibrosis is a hallmark of systemic sclerosis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="SSC" target="CREST">
+      <data key="d4">8.0</data>
+      <data key="d5">CREST features are used in the classification of systemic sclerosis</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="SSC" target="LOGISTIC REGRESSION">
+      <data key="d4">7.0</data>
+      <data key="d5">Logistic regression analysis is used to confirm associations with systemic sclerosis</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="SSC" target="RS844665">
+      <data key="d4">35.0</data>
+      <data key="d5">SNP rs844665 is not significantly associated with systemic sclerosis
+SNP rs844665 is associated with systemic sclerosis susceptibility
+SNP rs844665 is associated with systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,5db9eda60231516215dcb8b82826f9bc,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="SSC" target="LSSC">
+      <data key="d4">25.0</data>
+      <data key="d5">Limited systemic sclerosis is a subset of systemic sclerosis
+Limited systemic sclerosis is a subset of systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="DSSC">
+      <data key="d4">25.0</data>
+      <data key="d5">Diffuse systemic sclerosis is a subset of systemic sclerosis
+Diffuse systemic sclerosis is a subset of systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="ACA">
+      <data key="d4">8.0</data>
+      <data key="d5">Anti-centromere antibodies are associated with a subset of systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="SSC" target="ATA">
+      <data key="d4">8.0</data>
+      <data key="d5">Anti-topoisomerase antibodies are associated with a subset of systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="SSC" target="ARA">
+      <data key="d4">8.0</data>
+      <data key="d5">Anti-RNA polymerase III antibodies are associated with a subset of systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="SSC" target="C-G-A-A-C">
+      <data key="d4">8.0</data>
+      <data key="d5">The C-G-A-A-C haplotype is associated with systemic sclerosis risk</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="SSC" target="G-G-C-G-C">
+      <data key="d4">8.0</data>
+      <data key="d5">The G-G-C-G-C haplotype is associated with systemic sclerosis risk</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="SSC" target="G-G-C-G-T">
+      <data key="d4">8.0</data>
+      <data key="d5">The G-G-C-G-T haplotype is associated with systemic sclerosis risk</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="SSC" target="G-T-C-G-C">
+      <data key="d4">8.0</data>
+      <data key="d5">The G-T-C-G-C haplotype is associated with systemic sclerosis risk</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="SSC" target="C-G-A-G-C">
+      <data key="d4">8.0</data>
+      <data key="d5">The C-G-A-G-C haplotype is protective against systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="SSC" target="RS855648">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs855648 is associated with systemic sclerosis susceptibility
+SNP rs855648 is associated with systemic sclerosis</data>
+      <data key="d6">5db9eda60231516215dcb8b82826f9bc,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="ANTI-CENTROMERE">
+      <data key="d4">32.0</data>
+      <data key="d5">Anti-centromere antibodies are associated with systemic sclerosis
+Anti-centromere antibodies are associated with systemic sclerosis</data>
+      <data key="d6">5db9eda60231516215dcb8b82826f9bc,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="SSC" target="ANTI-TOPOISOMERASE I">
+      <data key="d4">39.0</data>
+      <data key="d5">Anti-topoisomerase I antibodies are associated with systemic sclerosis
+Anti-topoisomerase I antibodies are associated with systemic sclerosis
+Anti-topoisomerase I is an autoantibody associated with systemic sclerosis</data>
+      <data key="d6">5db9eda60231516215dcb8b82826f9bc,ab372f2a5df06a33e153fa648bb2b950,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="SSC" target="ANTI-RNA POLYMERASE III">
+      <data key="d4">11.0</data>
+      <data key="d5">Anti-RNA polymerase III antibodies are associated with systemic sclerosis
+Anti-RNA polymerase III antibodies are associated with systemic sclerosis
+Anti-RNA polymerase III is an autoantibody associated with systemic sclerosis</data>
+      <data key="d6">5db9eda60231516215dcb8b82826f9bc,ab372f2a5df06a33e153fa648bb2b950,e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="SSC" target="RS944648">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs944648 is associated with systemic sclerosis
+SNP rs944648 is associated with systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="AUTOANTIBODY">
+      <data key="d4">14.0</data>
+      <data key="d5">Autoantibodies are associated with systemic sclerosis and its subsetsAutoantibodies are associated with systemic sclerosis</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="BENJAMINI AND HOCHBERG FALSE DISCOVERY RATE METHOD">
+      <data key="d4">7.0</data>
+      <data key="d5">Benjamini and Hochberg false discovery rate method is used to correct p values in SSc studies</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="&#935;2">
+      <data key="d4">7.0</data>
+      <data key="d5">Chi-squared test is used to calculate raw p values in SSc studies</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="D&#8217;">
+      <data key="d4">7.0</data>
+      <data key="d5">Disequilibrium coefficient D&#8217; is used to measure linkage disequilibrium between SNPs in SSc</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="R">
+      <data key="d4">14.0</data>
+      <data key="d5">Measure of strength of linkage disequilibrium between SNPs in SScr values measure the strength of linkage disequilibrium between SNPs in systemic sclerosis</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="HAPLOTYPE BLOCK">
+      <data key="d4">14.0</data>
+      <data key="d5">Haplotype block structure is studied in relation to SScHaplotype block structure is studied in relation to systemic sclerosis</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="LINKAGE DISEQUILIBRIUM">
+      <data key="d4">7.0</data>
+      <data key="d5">Linkage disequilibrium is studied in relation to SSc</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="GENDER">
+      <data key="d4">7.0</data>
+      <data key="d5">Gender is controlled for in logistic regression analysis of TNFSF4 SNPs in SSc</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="PFDR">
+      <data key="d4">7.0</data>
+      <data key="d5">pFDR refers to corrected p values using the Benjamini and Hochberg false discovery rate method in systemic sclerosis studies</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="PU">
+      <data key="d4">7.0</data>
+      <data key="d5">pU refers to raw chi-squared p values in systemic sclerosis studies</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="LD">
+      <data key="d4">7.0</data>
+      <data key="d5">Linkage disequilibrium is studied in relation to systemic sclerosis</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="D'">
+      <data key="d4">7.0</data>
+      <data key="d5">Disequilibrium coefficient D' measures the strength of linkage disequilibrium between SNPs in systemic sclerosis</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="MHC CLASS II">
+      <data key="d4">7.0</data>
+      <data key="d5">MHC class II is a gene associated with systemic sclerosis susceptibility</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="PTPN22">
+      <data key="d4">7.0</data>
+      <data key="d5">PTPN22 is a gene associated with systemic sclerosis susceptibility</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="AIF1">
+      <data key="d4">7.0</data>
+      <data key="d5">AIF1 is a gene associated with systemic sclerosis susceptibility</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="STAT4">
+      <data key="d4">14.0</data>
+      <data key="d5">STAT4 is a gene associated with systemic sclerosis susceptibility
+STAT4 influences the genetic predisposition to systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1,ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="SSC" target="CREST SYNDROME">
+      <data key="d4">8.0</data>
+      <data key="d5">CREST syndrome is a subset of systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="SSC" target="ANTI-CENTROMERE ANTIBODIES">
+      <data key="d4">7.0</data>
+      <data key="d5">Anti-centromere antibodies are associated with systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="SSC" target="ANTI-TOPOISOMERASE I ANTIBODIES">
+      <data key="d4">7.0</data>
+      <data key="d5">Anti-topoisomerase I antibodies are associated with systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="SSC" target="FIBRILLARIN">
+      <data key="d4">7.0</data>
+      <data key="d5">Fibrillarin is targeted by autoantibodies in systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="SSC" target="IRF5 RS2004640">
+      <data key="d4">7.0</data>
+      <data key="d5">IRF5 rs2004640 is associated with systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="SSC" target="FAS -670G&gt;A">
+      <data key="d4">1.0</data>
+      <data key="d5">FAS -670G&gt;A polymorphism influences susceptibility to systemic sclerosis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="RS1234314" target="LSSC">
+      <data key="d4">7.0</data>
+      <data key="d5">SNP rs1234314 is more common in limited systemic sclerosis compared to controls</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS1234314" target="DSSC">
+      <data key="d4">7.0</data>
+      <data key="d5">SNP rs1234314 is more common in diffuse systemic sclerosis compared to controls</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS1234314" target="ACA">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs1234314 is associated with ACA-positive systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS1234314" target="ATA">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs1234314 is associated with ATA-positive systemic sclerosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS1234314" target="PULMONARY FIBROSIS">
+      <data key="d4">5.0</data>
+      <data key="d5">No significant differences were observed in the frequency of rs1234314 in patients with and without pulmonary fibrosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS1234314" target="PULMONARY HYPERTENSION">
+      <data key="d4">5.0</data>
+      <data key="d5">No significant differences were observed in the frequency of rs1234314 in patients with and without pulmonary hypertension</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS1234314" target="GENDER">
+      <data key="d4">6.0</data>
+      <data key="d5">The association of rs1234314 with systemic sclerosis was no longer observed after controlling for gender</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS1234314" target="LIMITED SYSTEMIC SCLEROSIS">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs1234314 is associated with limited systemic sclerosis</data>
+      <data key="d6">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="RS1234314" target="DIFFUSE SYSTEMIC SCLEROSIS">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs1234314 is associated with diffuse systemic sclerosis</data>
+      <data key="d6">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="RS2205960" target="LSSC">
+      <data key="d4">7.0</data>
+      <data key="d5">SNP rs2205960 is more common in limited systemic sclerosis compared to controls</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS2205960" target="DSSC">
+      <data key="d4">7.0</data>
+      <data key="d5">SNP rs2205960 is more common in diffuse systemic sclerosis compared to controls</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS2205960" target="ATA">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs2205960 is more frequent in ATA-positive systemic sclerosis compared to controls</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS2205960" target="PULMONARY FIBROSIS">
+      <data key="d4">5.0</data>
+      <data key="d5">No significant differences were observed in the frequency of rs2205960 in patients with and without pulmonary fibrosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS2205960" target="PULMONARY HYPERTENSION">
+      <data key="d4">5.0</data>
+      <data key="d5">No significant differences were observed in the frequency of rs2205960 in patients with and without pulmonary hypertension</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS2205960" target="GENDER">
+      <data key="d4">7.0</data>
+      <data key="d5">The association of rs2205960 with systemic sclerosis was confirmed after controlling for gender</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS2205960" target="LIMITED SYSTEMIC SCLEROSIS">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs2205960 is associated with limited systemic sclerosis</data>
+      <data key="d6">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="RS2205960" target="DIFFUSE SYSTEMIC SCLEROSIS">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs2205960 is associated with diffuse systemic sclerosis</data>
+      <data key="d6">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="RS2205960" target="AIF1">
+      <data key="d4">8.0</data>
+      <data key="d5">AIF1 and SNP rs2205960 are associated with systemic sclerosis</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="RS844648" target="DSSC">
+      <data key="d4">7.0</data>
+      <data key="d5">SNP rs844648 is more common in diffuse systemic sclerosis compared to controls</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS844648" target="ARA">
+      <data key="d4">8.0</data>
+      <data key="d5">SNP rs844648 is associated with ARA-positive systemic sclerosis compared to controls</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS844648" target="PULMONARY FIBROSIS">
+      <data key="d4">5.0</data>
+      <data key="d5">No significant differences were observed in the frequency of rs844648 in patients with and without pulmonary fibrosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS844648" target="PULMONARY HYPERTENSION">
+      <data key="d4">5.0</data>
+      <data key="d5">No significant differences were observed in the frequency of rs844648 in patients with and without pulmonary hypertension</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS844648" target="GENDER">
+      <data key="d4">7.0</data>
+      <data key="d5">The association of rs844648 with systemic sclerosis was confirmed after controlling for gender</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS844648" target="LIMITED SYSTEMIC SCLEROSIS">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs844648 is associated with limited systemic sclerosis</data>
+      <data key="d6">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="RS844648" target="DIFFUSE SYSTEMIC SCLEROSIS">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs844648 is associated with diffuse systemic sclerosis</data>
+      <data key="d6">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="RS844644" target="DSSC">
+      <data key="d4">6.0</data>
+      <data key="d5">SNP rs844644 is less common in diffuse systemic sclerosis compared to controls</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS844644" target="PULMONARY FIBROSIS">
+      <data key="d4">5.0</data>
+      <data key="d5">No significant differences were observed in the frequency of rs844644 in patients with and without pulmonary fibrosis</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS844644" target="PULMONARY HYPERTENSION">
+      <data key="d4">5.0</data>
+      <data key="d5">No significant differences were observed in the frequency of rs844644 in patients with and without pulmonary hypertension</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS844644" target="GENDER">
+      <data key="d4">1.0</data>
+      <data key="d5">The minor allele at rs844644 was protective in all groups except for the patients who were ARA positive</data>
+      <data key="d6">31513af83d109f0e11eca33fa5fb3204</data>
+    </edge>
+    <edge source="RS844644" target="LIMITED SYSTEMIC SCLEROSIS">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs844644 is associated with limited systemic sclerosis</data>
+      <data key="d6">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="RS844644" target="DIFFUSE SYSTEMIC SCLEROSIS">
+      <data key="d4">14.0</data>
+      <data key="d5">SNP rs844644 is associated with diffuse systemic sclerosis</data>
+      <data key="d6">e2d4a3467d27e6de3b2eea8b20f310e8</data>
+    </edge>
+    <edge source="PTPN22" target="TIDM">
+      <data key="d4">7.0</data>
+      <data key="d5">PTPN22 is associated with the development of type I diabetes mellitus</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="PTPN22" target="RA">
+      <data key="d4">7.0</data>
+      <data key="d5">PTPN22 is associated with the development of rheumatoid arthritis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="PTPN22" target="RHEUMATOID ARTHRITIS">
+      <data key="d4">8.0</data>
+      <data key="d5">PTPN22 is associated with rheumatoid arthritis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="PTPN22" target="TYPE I DIABETES">
+      <data key="d4">8.0</data>
+      <data key="d5">PTPN22 is associated with type I diabetes</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="RA" target="STAT4">
+      <data key="d4">7.0</data>
+      <data key="d5">STAT4 is a susceptibility gene for rheumatoid arthritis</data>
+      <data key="d6">87174642d9d24116b8cc01fca23746f2</data>
+    </edge>
+    <edge source="CREST" target="RAYNAUD&#8217;S PHENOMENON">
+      <data key="d4">8.0</data>
+      <data key="d5">Raynaud&#8217;s phenomenon is one of the features of CREST</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="CREST" target="ESOPHAGEAL DYSFUNCTION">
+      <data key="d4">8.0</data>
+      <data key="d5">Esophageal dysfunction is one of the features of CREST</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="CREST" target="SCLERODACTYLY">
+      <data key="d4">8.0</data>
+      <data key="d5">Sclerodactyly is one of the features of CREST</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="CREST" target="TELANGIECTASIAS">
+      <data key="d4">8.0</data>
+      <data key="d5">Telangiectasias is one of the features of CREST</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="CREST" target="CALCINOSIS">
+      <data key="d4">8.0</data>
+      <data key="d5">Calcinosis is one of the features of CREST</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="HEP-2 CELLS" target="ANTINUCLEAR ANTIBODIES">
+      <data key="d4">8.0</data>
+      <data key="d5">HEp-2 cells are used as an antigen substrate to test for antinuclear antibodies</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="HEP-2 CELLS" target="ANTI-CENTROMERE ANTIBODIES">
+      <data key="d4">8.0</data>
+      <data key="d5">HEp-2 cells are used to identify anti-centromere antibodies by their distinctive pattern</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TOPOISOMERASE I" target="ANTI-RNA POLYMERASE III ANTIBODIES">
+      <data key="d4">7.0</data>
+      <data key="d5">Topoisomerase I and anti-RNA polymerase III antibodies are autoantibodies tested in patients</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="TOPOISOMERASE I" target="ANTI-TOPOISOMERASE I ANTIBODIES">
+      <data key="d4">8.0</data>
+      <data key="d5">Anti-topoisomerase I antibodies target the enzyme topoisomerase I</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="PUREGENE GENOMIC DNA ISOLATION KIT" target="PERIPHERAL BLOOD">
+      <data key="d4">7.0</data>
+      <data key="d5">Peripheral blood is used with the PureGene genomic DNA isolation kit for DNA extraction</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="HAPLOTYPE" target="OMNIBUS TEST">
+      <data key="d4">1.0</data>
+      <data key="d5">Omnibus test is used to detect differences in haplotype frequency profiles</data>
+      <data key="d6">c89a7a896cf934207d874042e48857da</data>
+    </edge>
+    <edge source="SYSTEMIC SCLEROSIS" target="SCLERODERMA">
+      <data key="d4">10.0</data>
+      <data key="d5">Systemic sclerosis and scleroderma are the same disease</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="SYSTEMIC SCLEROSIS" target="ANGIOGENESIS">
+      <data key="d4">7.0</data>
+      <data key="d5">Abnormal angiogenesis is observed in patients with systemic sclerosis</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="SYSTEMIC SCLEROSIS" target="FAMILIAL SYSTEMIC SCLEROSIS">
+      <data key="d4">8.0</data>
+      <data key="d5">Familial systemic sclerosis indicates a genetic component in systemic sclerosis</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="SYSTEMIC SCLEROSIS" target="ANTI-NUCLEAR ANTIBODY">
+      <data key="d4">8.0</data>
+      <data key="d5">Anti-nuclear antibodies are often found in systemic sclerosis patients</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="SYSTEMIC SCLEROSIS" target="PROGRESSIVE SYSTEMIC SCLEROSIS">
+      <data key="d4">1.0</data>
+      <data key="d5">Progressive systemic sclerosis is a severe form of systemic sclerosis</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="RS944648" target="AIF1">
+      <data key="d4">8.0</data>
+      <data key="d5">AIF1 and SNP rs944648 are associated with systemic sclerosis</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="CD4+ T CELL" target="OX40">
+      <data key="d4">16.0</data>
+      <data key="d5">OX40 is expressed on CD4+ T cells</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="CD8+ T CELL" target="OX40">
+      <data key="d4">16.0</data>
+      <data key="d5">OX40 is expressed on CD8+ T cells</data>
+      <data key="d6">ab372f2a5df06a33e153fa648bb2b950</data>
+    </edge>
+    <edge source="DIABETES" target="OX40">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40/OX40L interaction is targeted to prevent diabetes in NOD mice</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="EXPERIMENTAL AUTOIMMUNE ENCEPHALOMYELITIS" target="OX40">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40L is critical in the development of experimental autoimmune encephalomyelitis</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="DENDRITIC CELL" target="OX40">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40 unleashes dendritic cells by inactivating T-reg cells, allowing adaptive immune response</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40" target="T-REG CELL">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40 mediates inactivation of T-reg cell function</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40" target="OX40/OX40L INTERACTION">
+      <data key="d4">9.0</data>
+      <data key="d5">OX40 is part of the OX40/OX40L interaction</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40" target="SERUM SOLUBLE OX40">
+      <data key="d4">8.0</data>
+      <data key="d5">Increased serum soluble OX40 is found in systemic sclerosis patients</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40" target="ATOPIC DERMATITIS">
+      <data key="d4">9.0</data>
+      <data key="d5">OX40 is crucial for the generation of Th2 memory cells, which are central to the pathogenesis of atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="OX40" target="AD">
+      <data key="d4">40.0</data>
+      <data key="d5">OX40 levels are measured in patients with atopic dermatitis
+OX40 is highly expressed by skin-homing T cells and monocytes in atopic dermatitis
+OX40-positive cells are present in the skin of patients with atopic dermatitis
+OX40-expressing cells are localized to the skin of patients with atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b,2712037f85fc28b3e86b92a719cb7a6c,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="SCORAD">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40 expression in T cells inversely correlates with SCORAD in AD</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="T CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40 is mainly expressed by skin-homing memory-prone CLA+ T cells in AD</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="PBMCS">
+      <data key="d4">6.0</data>
+      <data key="d5">OX40 expression is studied in PBMCs from AD patients</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="HC">
+      <data key="d4">6.0</data>
+      <data key="d5">OX40 expression is compared between AD patients and healthy controls</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="CD4+CD45RO+CLA+ T CELLS">
+      <data key="d4">16.0</data>
+      <data key="d5">OX40 is highly expressed in CD4+CD45RO+CLA+ T cells in AD patients
+CD4+CD45RO+CLA+ T cells express high levels of OX40 in atopic dermatitis</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="CD4+CD45RO+CLA- T CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40 is highly expressed in CD4+CD45RO+CLA- T cells in AD patients</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="CD8+CD45RO+CLA+ T CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40 is expressed in CD8+CD45RO+CLA+ T cells in AD patients</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="CD8+CD45RO+CLA- T CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40 is expressed in CD8+CD45RO+CLA- T cells in AD patients</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="MFI">
+      <data key="d4">15.0</data>
+      <data key="d5">OX40 expression levels are measured using MFI in AD patients
+Median fluorescence intensity of OX40 was significantly higher among patients with atopic dermatitis</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="SKIN">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40 and OX40L are co-localized in the skin of AD patients</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="MAST CELLS">
+      <data key="d4">1.0</data>
+      <data key="d5">OX40 is present on the surface of OX40L-expressing mast cells in AD</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="OX40" target="DAPI">
+      <data key="d4">6.0</data>
+      <data key="d5">Nuclear staining was carried out by DAPI to identify OX40-positive cells</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="OX40" target="TNF-SUPER FAMILY">
+      <data key="d4">7.0</data>
+      <data key="d5">OX40 is a member of the TNF-super family</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="OX40" target="SKIN-HOMING CD4+ T CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">Skin-homing CD4+ T cells from patients with atopic dermatitis show increased expression of OX40</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="OX40" target="LOCAL INFLAMMATION">
+      <data key="d4">8.0</data>
+      <data key="d5">Increased expression of OX40 on skin-homing T cells enhances local inflammation</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="OX40" target="INFLAMMATORY REACTION">
+      <data key="d4">16.0</data>
+      <data key="d5">OX40 system plays a pivotal role in the inflammatory reaction in the skin</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="OX40" target="ATOPIC CO-MORBIDITIES">
+      <data key="d4">14.0</data>
+      <data key="d5">OX40 system is associated with atopic co-morbidities in atopic dermatitis</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="OX40" target="BCL-XL">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40 promotes the expression of Bcl-xL</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="OX40" target="BCL-2">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40 promotes the expression of Bcl-2</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="OX40" target="CD4 T CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40 is essential for the long-term survival of CD4 T cells</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="OX40" target="MEMORY CD4 T CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">OX40 determines the development of memory CD4 T cells</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="CTLA4" target="RHEUMATOID ARTHRITIS">
+      <data key="d4">7.0</data>
+      <data key="d5">CTLA4 is associated with rheumatoid arthritis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="PADI4" target="RHEUMATOID ARTHRITIS">
+      <data key="d4">7.0</data>
+      <data key="d5">PADI4 is associated with rheumatoid arthritis</data>
+      <data key="d6">5639a5e5649646c1e4c8deb1e1f0a1b1</data>
+    </edge>
+    <edge source="RHEUMATOID ARTHRITIS" target="IGG">
+      <data key="d4">6.0</data>
+      <data key="d5">Anti-animal IgG antibodies in plasma from arthritis patients can cause false results in assays</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="CREST SYNDROME" target="ANTICENTROMERE ANTIBODIES">
+      <data key="d4">9.0</data>
+      <data key="d5">CREST syndrome is associated with anticentromere antibodies</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="TNF" target="MAST CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">Mast cells secrete TNF, which enhances T cell activation</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="TNF" target="T CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">TNF is involved in the activation and survival of T cells</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="HLA-DQB1" target="ANTI-TOPOISOMERASE I AUTOANTIBODY">
+      <data key="d4">8.0</data>
+      <data key="d5">HLA-DQB1 is associated with anti-topoisomerase I autoantibody response in scleroderma</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="BLADDER CANCER" target="DNA-REPAIR GENES">
+      <data key="d4">8.0</data>
+      <data key="d5">DNA-repair genes are linked to bladder cancer predisposition</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="BLADDER CANCER" target="CELL-CYCLE-CONTROL GENES">
+      <data key="d4">1.0</data>
+      <data key="d5">Cell-cycle-control genes are associated with bladder cancer predisposition</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="OX40/OX40L INTERACTION" target="AUTOIMMUNE-LIKE DISEASES">
+      <data key="d4">7.0</data>
+      <data key="d5">Constitutive OX40/OX40L interaction induces autoimmune-like diseases</data>
+      <data key="d6">f286191a8009d9c0ef61d3de0938f0e6</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="ASTHMA">
+      <data key="d4">7.0</data>
+      <data key="d5">Asthma is often associated with atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="ALLERGIC RHINITIS">
+      <data key="d4">7.0</data>
+      <data key="d5">Allergic rhinitis is often associated with atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="TH2 CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">Th2 cells dominate the inflammatory response in atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="SOX40">
+      <data key="d4">7.0</data>
+      <data key="d5">Serum levels of sOX40 are decreased in patients with atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="CD4+ T CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">Expression of OX40 by activated skin-homing CD4+ T cells is increased in atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="IGE">
+      <data key="d4">7.0</data>
+      <data key="d5">Elevated levels of IgE are found in up to 80% of patients with atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="MAST CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">Mast cells are involved in the production of Th2 driving cytokines in atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="IL-4">
+      <data key="d4">8.0</data>
+      <data key="d5">IL-4 is a central mediator of atopic dermatitis pathogenesis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="IL-25">
+      <data key="d4">8.0</data>
+      <data key="d5">IL-25 is a central mediator of atopic dermatitis pathogenesis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="SCORAD">
+      <data key="d4">7.0</data>
+      <data key="d5">SCORAD is used to assess the severity of atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="PBMCS">
+      <data key="d4">1.0</data>
+      <data key="d5">PBMCs are collected from patients with atopic dermatitis for immune response studies</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="ECZEMA">
+      <data key="d4">8.0</data>
+      <data key="d5">Eczema is a common symptom of atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="PRURITUS">
+      <data key="d4">8.0</data>
+      <data key="d5">Pruritus is a common symptom of atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="DRY SKIN">
+      <data key="d4">8.0</data>
+      <data key="d5">Dry skin is a common symptom of atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="MEMORY T CELLS">
+      <data key="d4">8.0</data>
+      <data key="d5">Memory T cells are central to the chronicity of atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="APC">
+      <data key="d4">8.0</data>
+      <data key="d5">APC express OX40L and are involved in the immune response in atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="SOX40L">
+      <data key="d4">7.0</data>
+      <data key="d5">sOX40L has an anti-inflammatory effect in atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="HANIFIN &amp; RAJKA CRITERIA">
+      <data key="d4">7.0</data>
+      <data key="d5">The Hanifin &amp; Rajka criteria are used for diagnosing atopic dermatitis</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ATOPIC DERMATITIS" target="PLASMA">
+      <data key="d4">1.0</data>
+      <data key="d5">Plasma is collected from patients with atopic dermatitis for various analyses</data>
+      <data key="d6">a98a120ac25d0f8a533fcdcd479913b1</data>
+    </edge>
+    <edge source="ASTHMA" target="AD">
+      <data key="d4">14.0</data>
+      <data key="d5">Asthma is a comorbidity often found in patients with atopic dermatitis
+Some patients with atopic dermatitis also have asthma</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b,7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="ASTHMA" target="SOX40">
+      <data key="d4">7.0</data>
+      <data key="d5">Higher sOX40 serum levels are observed in AD patients with asthma</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="ASTHMA" target="SERUM OX40 LIGAND">
+      <data key="d4">1.0</data>
+      <data key="d5">Serum OX40 ligand levels can be a potential biomarker of severity and persistence in asthmatic children</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="ALLERGIC RHINITIS" target="AD">
+      <data key="d4">6.0</data>
+      <data key="d5">Some patients with atopic dermatitis also have allergic rhinitis</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="SOX40" target="AD">
+      <data key="d4">37.0</data>
+      <data key="d5">Soluble OX40 levels are measured in serum from patients with Atopic Dermatitis
+sOX40 levels are measured in patients with atopic dermatitis
+Serum levels of sOX40 are associated with atopic dermatitis
+Serum levels of sOX40 are decreased in patients with atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd,919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="SOX40" target="SCORAD">
+      <data key="d4">13.0</data>
+      <data key="d5">Correlation between sOX40 levels and SCORAD in atopic dermatitis
+sOX40 levels correlate with SCORAD index in children with AD</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b,919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="SOX40" target="IGE">
+      <data key="d4">1.0</data>
+      <data key="d5">Correlation between sOX40 levels and IgE in atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="SOX40" target="HC">
+      <data key="d4">7.0</data>
+      <data key="d5">sOX40 levels are compared between patients with atopic dermatitis and healthy controls</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="SOX40" target="SPEARMAN&#8217;S RHO">
+      <data key="d4">6.0</data>
+      <data key="d5">Spearman&#8217;s rho is used to assess the correlation between sOX40 levels and clinical parameters in atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="SOX40" target="CHILDREN">
+      <data key="d4">7.0</data>
+      <data key="d5">Serum levels of sOX40 are associated with disease activity in children with AD</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="SOX40" target="ADULTS">
+      <data key="d4">7.0</data>
+      <data key="d5">Serum levels of sOX40 are associated with disease activity in adults with AD</data>
+      <data key="d6">919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="SOX40" target="ELISA">
+      <data key="d4">7.0</data>
+      <data key="d5">Serum levels of sOX40 were measured using ELISA</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="SOX40" target="TNF-SUPER FAMILY">
+      <data key="d4">7.0</data>
+      <data key="d5">sOX40 can bind to its ligand expressed by different cell types, as with all members of the TNF-super family</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="IGE" target="AD">
+      <data key="d4">8.0</data>
+      <data key="d5">IgE levels are measured in patients with atopic dermatitis
+Serum IgE levels are measured in AD patients</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b,919f7083e77a7d3378489efeffa0faed</data>
+    </edge>
+    <edge source="MAST CELLS" target="LOCAL INFLAMMATION">
+      <data key="d4">1.0</data>
+      <data key="d5">Mast cells interact with activated T cells through OX40-OX40L, contributing to local inflammation</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="MAST CELLS" target="T CELLS">
+      <data key="d4">14.0</data>
+      <data key="d5">Mast cells interact with T cells through OX40-OX40L in the skin of patients with atopic dermatitis</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="MAST CELLS" target="FC EPSILON RI">
+      <data key="d4">7.0</data>
+      <data key="d5">Fc epsilon RI-mediated activation of mast cells leads to the production of interleukin-25</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="MAST CELLS" target="INTERLEUKIN-25">
+      <data key="d4">7.0</data>
+      <data key="d5">Mast cells produce interleukin-25 upon activation</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="SCORAD" target="AD">
+      <data key="d4">8.0</data>
+      <data key="d5">SCORAD is used to assess the severity of atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="PBMCS" target="AD">
+      <data key="d4">14.0</data>
+      <data key="d5">Peripheral Blood Mononuclear Cells are collected from patients with Atopic Dermatitis</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="PBMCS" target="CD4">
+      <data key="d4">16.0</data>
+      <data key="d5">CD4 is a marker used to identify T helper cells in Peripheral Blood Mononuclear Cells</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="PBMCS" target="CD8">
+      <data key="d4">16.0</data>
+      <data key="d5">CD8 is a marker used to identify cytotoxic T cells in Peripheral Blood Mononuclear Cells</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="PBMCS" target="CD14">
+      <data key="d4">16.0</data>
+      <data key="d5">CD14 is a marker used to identify macrophages in Peripheral Blood Mononuclear Cells</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="PBMCS" target="CD45RO">
+      <data key="d4">16.0</data>
+      <data key="d5">CD45RO is a marker used to identify memory T cells in Peripheral Blood Mononuclear Cells</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="PBMCS" target="CD56">
+      <data key="d4">16.0</data>
+      <data key="d5">CD56 is a marker used to identify natural killer cells in Peripheral Blood Mononuclear Cells</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="PBMCS" target="CLA">
+      <data key="d4">16.0</data>
+      <data key="d5">Cutaneous Lymphocyte Antigen is a marker used to identify skin-homing T cells in Peripheral Blood Mononuclear Cells</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="PBMCS" target="FICOLL-PAQUE">
+      <data key="d4">16.0</data>
+      <data key="d5">Ficoll-Paque is used for the isolation of Peripheral Blood Mononuclear Cells</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="PBMCS" target="BOVINE SERUM ALBUMIN">
+      <data key="d4">14.0</data>
+      <data key="d5">Bovine Serum Albumin is used in the wash buffer for Peripheral Blood Mononuclear Cells</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="PBMCS" target="SODIUM AZIDE">
+      <data key="d4">14.0</data>
+      <data key="d5">Sodium Azide is used in the wash buffer for Peripheral Blood Mononuclear Cells</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="SOX40L" target="AD">
+      <data key="d4">28.0</data>
+      <data key="d5">Soluble OX40 Ligand levels are measured in serum from patients with Atopic Dermatitis
+sOX40L levels are measured in patients with atopic dermatitis
+Serum levels of sOX40L show no significant differences between patients with atopic dermatitis and healthy controls</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b,2f4bf4583547aaf1c5cc6eaea0b058eb,7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="SOX40L" target="HC">
+      <data key="d4">7.0</data>
+      <data key="d5">sOX40L levels are compared between patients with atopic dermatitis and healthy controls</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="SOX40L" target="ELISA">
+      <data key="d4">7.0</data>
+      <data key="d5">Serum levels of sOX40L were measured using ELISA</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="AD" target="HC">
+      <data key="d4">16.0</data>
+      <data key="d5">Healthy controls are used as a comparison group for patients with Atopic Dermatitis</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="AD" target="TRYPTASE">
+      <data key="d4">14.0</data>
+      <data key="d5">Tryptase levels are measured in skin biopsies from patients with Atopic Dermatitis</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="AD" target="FORMALDEHYDE">
+      <data key="d4">14.0</data>
+      <data key="d5">Formaldehyde is used to fix skin biopsies from patients with Atopic Dermatitis</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="AD" target="PARAFFIN">
+      <data key="d4">14.0</data>
+      <data key="d5">Paraffin is used to embed skin biopsies from patients with Atopic Dermatitis</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="AD" target="XYLENE">
+      <data key="d4">14.0</data>
+      <data key="d5">Xylene is used to deparaffinize skin biopsies from patients with Atopic Dermatitis</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="AD" target="ETHANOL">
+      <data key="d4">14.0</data>
+      <data key="d5">Ethanol is used to rehydrate skin biopsies from patients with Atopic Dermatitis</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="AD" target="CITRATE-PHOSPHATE BUFFER">
+      <data key="d4">14.0</data>
+      <data key="d5">Citrate-Phosphate Buffer is used for antigen retrieval in skin biopsies from patients with Atopic Dermatitis</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="AD" target="DONKEY SERUM">
+      <data key="d4">2.0</data>
+      <data key="d5">Donkey Serum is used as a blocking agent in skin biopsies from patients with Atopic Dermatitis</data>
+      <data key="d6">2f4bf4583547aaf1c5cc6eaea0b058eb</data>
+    </edge>
+    <edge source="AD" target="RHINITIS">
+      <data key="d4">8.0</data>
+      <data key="d5">Rhinitis is a comorbidity often found in patients with atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="AD" target="PERIPHERAL BLOOD MONONUCLEAR CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">Peripheral blood mononuclear cells are analyzed in patients with atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="AD" target="WILCOXON SIGNED-RANK TEST">
+      <data key="d4">6.0</data>
+      <data key="d5">The Wilcoxon signed-rank test is used to analyze paired data in studies of atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="AD" target="MANN-WHITNEY RANK SUM TEST">
+      <data key="d4">6.0</data>
+      <data key="d5">The Mann-Whitney rank sum test is used to analyze unpaired data in studies of atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="AD" target="PRISM 6">
+      <data key="d4">6.0</data>
+      <data key="d5">Prism 6 is used for statistical analysis and graphing in studies of atopic dermatitis</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="AD" target="EASI">
+      <data key="d4">1.0</data>
+      <data key="d5">EASI score is used to measure the severity of atopic dermatitis</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="AD" target="GBR 830">
+      <data key="d4">9.0</data>
+      <data key="d5">GBR 830 improves clinical scores in patients with atopic dermatitis</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="TRYPTASE" target="EPR8476">
+      <data key="d4">8.0</data>
+      <data key="d5">EPR8476 is an antibody used to detect tryptase</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="TRYPTASE" target="ALEXA 647">
+      <data key="d4">7.0</data>
+      <data key="d5">Alexa 647 is used to label antibodies against tryptase</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="DAPI" target="PERIPHERAL BLOOD MONONUCLEAR CELLS">
+      <data key="d4">7.0</data>
+      <data key="d5">DAPI is used to stain DNA in peripheral blood mononuclear cells</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="PERIPHERAL BLOOD MONONUCLEAR CELLS" target="MOUNTING MEDIUM">
+      <data key="d4">6.0</data>
+      <data key="d5">Mounting Medium is used to fix peripheral blood mononuclear cells on microscope slides</data>
+      <data key="d6">05fe283d6fa879523f3ab153815ac64b</data>
+    </edge>
+    <edge source="EASI" target="ANTI-OX40 THERAPY">
+      <data key="d4">16.0</data>
+      <data key="d5">Anti-OX40 therapy affects the Eczema Area and Severity Index score in AD treatment</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="SKIN-HOMING CD4+ T CELLS" target="INFLAMMATORY SITE">
+      <data key="d4">7.0</data>
+      <data key="d5">Skin-homing CD4+ T cells migrate to the inflammatory site in the skin</data>
+      <data key="d6">7a1160d4230f62889d47499ed90adcdd</data>
+    </edge>
+    <edge source="BIOMARKERS" target="ANTI-OX40 THERAPY">
+      <data key="d4">14.0</data>
+      <data key="d5">Anti-OX40 therapy affects biomarkers in AD treatment</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="SKIN THICKNESS" target="ANTI-OX40 THERAPY">
+      <data key="d4">14.0</data>
+      <data key="d5">Anti-OX40 therapy affects skin thickness in AD treatment</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+    <edge source="LDL RECEPTOR-DEFICIENT MICE" target="OX40-OX40L">
+      <data key="d4">7.0</data>
+      <data key="d5">Interruption of the OX40-OX40 ligand pathway in LDL receptor-deficient mice causes regression of atherosclerosis</data>
+      <data key="d6">2712037f85fc28b3e86b92a719cb7a6c</data>
+    </edge>
+  </graph>
+</graphml>

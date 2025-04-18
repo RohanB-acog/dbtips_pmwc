@@ -1,0 +1,175 @@
+services:
+  # web:
+  #   container_name: 'dbtips-coe'
+  #   build:
+  #     context: frontend
+  #     dockerfile: Dockerfile
+  #     args:
+  #       - VITE_API_URI=${VITE_API_URI}
+  #       - VITE_TARGET_DOSSIER_URI=${VITE_TARGET_DOSSIER_URI}
+  #   restart: always
+
+  # target-dossier-frontend:
+  #   container_name: 'dbtips-coe-target-dossier'
+  #   build:
+  #     context: ./target-dossier-frontend/frontend
+  #     dockerfile: Dockerfile
+  #     args:
+  #       - VITE_API_URI=${VITE_API_URI}
+  #   restart: always
+
+  # web:
+  #   container_name: 'dev-target-dossier-llm'
+  #   build:
+  #     context: frontend
+  #     dockerfile: Dockerfile
+  #     args:
+  #       - VITE_API_URI=${VITE_API_URI}
+  #         #ports:
+  #     # - '80:80'
+  # #   restart: always
+
+  backend:
+    container_name: 'dbtips-coe-backend'
+    build:
+      context: backend
+      dockerfile: Dockerfile
+    restart:
+      always
+      # ports:
+      #- "8000:8000"
+    # labels:
+    #   - "security=none"
+    environment:
+      - UVICORN_HOST=0.0.0.0
+      - UVICORN_PORT=8000
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - GRAPHRAG_DATA_DIR=${GRAPHRAG_DATA_DIR}
+      - LLM_MODEL=${LLM_MODEL}
+      - SERP_API_KEY=${SERP_API_KEY}
+      - BIOGRID_API_KEY=${BIOGRID_API_KEY}
+      - STRAPI_BASE_URL=${STRAPI_BASE_URL}
+      - STRAPI_API_TOKEN=${STRAPI_API_TOKEN}
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - provider=${provider}
+      - endpoint=${endpoint}
+      - username=${username}
+      - password=${password}
+      - model=${model}
+      - ENTITY_DB_PATH=${ENTITY_DB_PATH}
+      - NCBI_EMAIL=${NCBI_EMAIL}
+      - NCBI_API_KEY=${NCBI_API_KEY}
+      - OPEN_CITATIONS_API=${OPEN_CITATIONS_API}
+
+    volumes:
+      - ./backend/res-immunology-automation/res_immunology_automation/src/scripts:/app/res-immunology-automation/res_immunology_automation/src/scripts
+
+      - ./backend/res-immunology-automation/res_immunology_automation/src/scripts/cached_data_json:/app/res-immunology-automation/res_immunology_automation/src/scripts/cached_data_json
+      - ./backend/data:/app/database
+      - ./backend/res-immunology-automation/res_immunology_automation/src/scripts/logs:/app/res-immunology-automation/res_immunology_automation/src/scripts/logs
+    depends_on:
+      redis:
+        condition: service_started
+      postgres:
+        condition: service_healthy
+
+
+  # backend-llm:
+  #   container_name: 'dbtips-coe-disease-dossier-foundation-backend-llm'
+  #   build:
+  #     context: disease-dossier-backend-llm/backend-llm
+  #     dockerfile: Dockerfile
+  #   restart: always
+  #   volumes:
+  #     - ./disease-dossier-backend-llm/backend-llm/static:/app/static
+  #   environment:
+  #     - OPENAI_API_KEY=${OPENAI_API_KEY}
+  #     - REDIS_HOST=redis-llm
+  #     - REDIS_PORT=6379
+  #     - PERPLEXITY_KEY=${PERPLEXITY_KEY}
+  #     - AACT_DB_NAME=${AACT_DB_NAME}
+  #     - AACT_DB_USER=${AACT_DB_USER}
+  #     - AACT_DB_PASSWORD=${AACT_DB_PASSWORD}
+  #     - AACT_DB_HOST=${AACT_DB_HOST}
+  #     - AACT_DB_PORT=${AACT_DB_PORT}
+
+  # redis-llm:
+  #   image: redis:latest
+  #   container_name: 'dbtips-coe-disease-dossier-chatbot-redis-llm'
+  #   restart: always
+  #   volumes:
+  #     - ./disease-dossier-backend-llm/backend-llm/redis/redis-data:/data
+
+  # target-dossier-backend-llm:
+  #   container_name: 'dbtips-coe-target-dossier-foundation-backend-llm'
+  #   build:
+  #     context: backend-llm
+  #     dockerfile: Dockerfile
+  #   restart: always
+  #   volumes:
+  #     - ./backend-llm/static:/app/static
+  #   environment:
+  #     - OPENAI_API_KEY=${OPENAI_API_KEY}
+  #     - REDIS_HOST=target-dossier-redis-llm
+  #     - REDIS_PORT=6379
+  #     - PERPLEXITY_KEY=${PERPLEXITY_KEY}
+  #     - AACT_DB_NAME=${AACT_DB_NAME}
+  #     - AACT_DB_USER=${AACT_DB_USER}
+  #     - AACT_DB_PASSWORD=${AACT_DB_PASSWORD}
+  #     - AACT_DB_HOST=${AACT_DB_HOST}
+  #     - AACT_DB_PORT=${AACT_DB_PORT}
+
+  # target-dossier-redis-llm:
+  #   image: redis:latest
+  #   container_name: 'target-coe-dossier-chatbot-redis-llm'
+  #   restart: always
+  #   volumes:
+  #     - ./backend-llm/redis/redis-data:/data
+
+  redis:
+    container_name: 'dbtips-coe-dossier-foundation-redis'
+    build:
+      context: backend/redis
+      dockerfile: Dockerfile
+      args:
+        - REDIS_PASSWORD=${REDIS_PASSWORD}
+    restart: always
+    volumes:
+      - ./backend/redis/redis-data:/data
+
+  postgres:
+    container_name: 'dev-disease-dossier-foundation-postgres'
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -h postgres']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+
+  # pgadmin:
+  #   container_name: 'dbtips-coe-dossier-foundation-pgadmin'
+  #   image: dpage/pgadmin4:latest
+  #   restart: always
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL} # Default login email
+  #     PGADMIN_DEFAULT_PASSWORD:
+  #       ${PGADMIN_PASSWORD} # Default login password
+  #       #ports:
+  #       # - "5050:80"  # Expose pgAdmin web interface on port 5050
+  #       #volumes:
+  #     #- ./pgadmin:/var/lib/pgadmin  # Persist pgAdmin configuration data
+  #   depends_on:
+  #     - postgres

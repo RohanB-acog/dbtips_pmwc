@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "chatbot-component": "file:../../../../llm-coe/LLM-COE/LLM-Tech/chatbot-component/frontend/chatbot-component-1.0.0.tgz"
+  }
+}

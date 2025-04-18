@@ -1,0 +1,261 @@
+{
+    "atopic eczema": [
+        {
+            "name": "Dr. Mark G. Lebwohl, MD",
+            "affiliation": "Mount Sinai School of Medicine",
+            "expertise": "Inflammatory skin conditions, particularly psoriasis (including psoriasis vulgaris) and eczema, as well as autoimmune hair loss (alopecia areata), skin cancers and cutaneous lymphomas",
+            "notable_talks": {
+                "text": "Exploring the Multifaceted Landscape of Atopic Dermatitis Care at the 2024 AAD Meeting",
+                "url": "https://www.dermatologytimes.com/expert-perspectives/exploring-the-multifaceted-landscape-of-atopic-dermatitis-care-at-the-2024-aad-meeting"
+            },
+            "publications":["https://www.researchgate.net/scientific-contributions/Mark-G-Lebwohl-2146181894"]
+        },
+        {
+            "name": "Dr. Emma Guttman, MD, PhD",
+            "affiliation": "Icahn School of Medicine at Mount Sinai",
+            "expertise": "Inflammatory skin disorders (atopic dermatitis, contact dermatitis, eczema, and psoriasis), allergic manifestations (skin allergies and hives), dermatologic growths (keloids), and various hair disorders (alopecia areata and general hair loss).",
+            "notable_talks": {
+                "text": "Dr. Emma Guttman What's New in Atopic Dermatitis 2023",
+                "url": "https://www.youtube.com/watch?v=DW88PlqZ5f0"
+            },
+            "publications":["https://scholar.google.com/citations?user=3lTZ47QAAAAJ&hl=en"]
+        },
+        {
+            "name": "Dr. Andrew Blauvelt, MD, MBA",
+            "affiliation": "Blauvelt Consulting, LLC",
+            "expertise": "Psoriasis immunology research specifically the role of IL-23/Th17 biology in this disease.",
+            "notable_talks": {
+                "text": "Treatment of AD in Clinical Practice",
+                "url": "https://www.dermatologytimes.com/view/treatment-of-ad-in-clinical-practice"
+            },
+            "publications":["https://pubmed.ncbi.nlm.nih.gov/?term=Andrew+Blauvelt&filter=datesearch.y_5&sort=date"]
+        },
+        {
+            "name": "Robert Sidbury, MD",
+            "affiliation": "Seattle Children\u2019s Hospital in Washington",
+            "expertise": "Atopic dermatitis; vascular lesions; health services research; Vitamin D as it relates to skin disease.",
+            "notable_talks": {
+                "text": "Discussing Changes to Atopic Dermatitis Guidelines, with Robert Sidbury, MD, MPH",
+                "url": "https://www.hcplive.com/view/discussing-changes-to-atopic-dermatitis-guidelines-with-robert-sidbury-md-mph"
+            },
+            "publications":["https://pubmed.ncbi.nlm.nih.gov/?term=Sidbury%2C%20R"]
+        },
+        {
+            "name": "Dr. Jonathan Silverberg, MD, PhD",
+            "affiliation": "George Washington University School of Medicine and Health Sciences in Washington, DC",
+            "expertise": "Inflammatory skin disease, particularly atopic and contact dermatitis, management of atopic dermatitis, hand eczema, chronic itch, psoriasis, hidradenitis and many other chronic inflammatory skin disorders.",
+            "notable_talks": {
+                "text": "A RAVE Upgrade: Previewing Revolutionizing Alopecia Areata, Vitiligo, and Eczema",
+                "url": "https://www.dermatologytimes.com/view/a-rave-upgrade-previewing-revolutionizing-alopecia-areata-vitiligo-and-eczema"
+            },
+            "publications":["https://www.researchgate.net/profile/Jonathan-Silverberg"]
+        }
+    ],
+    "systemic scleroderma": [
+        {
+            "name": "Virginia Steen, MD",
+            "affiliation": "Georgetown University Medical Center",
+            "expertise": "\u200b\u200b Rheumatology and Autoimmune Connective Tissue Diseases (Scleroderma and Systemic lupus erythematosus)",
+            "notable_talks": {
+                "text": "New Therapeutic Avenues for Scleroderma at the Scleroderma Foundation conference",
+                "url": "https://www.youtube.com/watch?v=zC0diEscTig"
+            },
+            "publications":["https://pubmed.ncbi.nlm.nih.gov/?sort=date&term=Steen+VD&cauthor_id=24387989"]
+        },
+        {
+            "name": "Dinesh Khanna, MD, MS",
+            "affiliation": "University of Michigan",
+            "expertise": "Rheumatology (Scleroderma and related conditions)",
+            "notable_talks": {
+                "text": "CAR T-Cell therapy in Systemic Sclerosis, Dr. Dinesh Khanna, Dr. Monalisa Ghosh",
+                "url": "https://www.youtube.com/watch?app=desktop&v=eRrXLUTDpoc"
+            },
+            "publications": ["https://scholar.google.com/citations?user=R8ByjeIAAAAJ&hl=en"]
+        },
+        {
+            "name": "Kathryn Torok, MD",
+            "affiliation": "Children's Hospital of Pittsburgh",
+            "expertise": "Pediatric localized scleroderma and systemic sclerosis",
+            "notable_talks": {
+                "text": "All About Pediatric Scleroderma with Kathryn Torok, MD",
+                "url": "https://www.chp.edu/health-care-professionals/podcast/pediatric-scleroderma-kathryn-torok"
+            },
+            "publications":["https://www.researchgate.net/profile/Kathryn-Torok"]
+        },
+        {
+            "name": "Shervin Assassi, MD",
+            "affiliation": "University of Texas Health Science Center",
+            "expertise": "Systemic sclerosis and Rheumatology",
+            "notable_talks": {
+                "text": "Published insights on the Role of Genetics in Scleroderma and recently led a webinar on patient-centered outcomes",
+                "url": "https://www.slideshare.net/slideshow/genetic-studies-in-scleroderma/67469150"
+            },
+            "publications":["https://scholar.google.com/citations?user=tQhVkfsAAAAJ&hl=en"]
+        },
+        {
+            "name": "Gregory Gordon, MD, JD",
+            "affiliation": "Scleroderma Research Foundation",
+            "expertise": "Scleroderma",
+            "notable_talks": {
+                "text": "Recently emphasized multidisciplinary care strategies in a public forum at the Scleroderma Foundation's annual event",
+                "url": "https://www.linkedin.com/posts/scleroderma-research-foundation_worldsclerodermaday-worldsclerodermaday-activity-7212881268496031744-GcES/"
+            },
+            "publications": []
+        }
+    ],
+    "hidradenitis suppurativa": [
+        {
+            "name": "Dr. Christos C. Zouboulis, MD",
+            "affiliation": "Brandenburg Medical School, Germany",
+            "expertise": "Dermatology (Acne, Hidradenitis suppurativa, Skin aging)",
+            "notable_talks": {
+                "text": "Presented two-year efficacy data on Bimekizumab at EADV 2024",
+                "url": "https://eadv.org/publications/eadv-news/"
+            },
+            "publications":["https://scholar.google.de/citations?user=wDVUzawAAAAJ&hl=de"]
+        },
+        {
+            "name": "Dr. Gregor B. E. Jemec, MD, DMSci",
+            "affiliation": "Roskilde Hospital, Denmark and University of Copenhagen, Denmark",
+            "expertise": "Dermatology (pioneering in hidradenitis suppurativa)",
+            "notable_talks": {
+                "text": "Co-authored major HS studies, including BE HEARD trials",
+                "url": "https://www.linkedin.com/posts/jemec_hidradenitissuppurativa-dermatology-disease-activity-7177010165940961280-4xHS/"
+            },
+            "publications":["https://scholar.google.com/citations?user=IxLwJWsAAAAJ&hl=en"]
+        },
+        {
+            "name": "Dr. Alice Gottlieb MD, PhD",
+            "affiliation": "Icahn School of Medicine, USA",
+            "expertise": "Dermatology (Dermatitis, scleroderma, Pemphigus bullous, vitiligo, dermatomyositis, pruritis, prurigo nodularis, eczema) and Autoimmune disease (lupus)",
+            "notable_talks": {
+                "text": "Discussed biologics for HS, emphasizing quality of life improvements",
+                "url": "https://www.linkedin.com/posts/brauliogomezvaladesmaturano_we-were-honored-to-have-two-patients-share-activity-7166029871817687040-tL5k?utm_source=share&utm_medium=member_desktop"
+            },
+            "publications": ["https://scholars.mssm.edu/en/persons/alice-gottlieb/publications/"]
+        },
+        {
+            "name": "Dr. Hadar Lev-Tov, MD",
+            "affiliation": "University of Miami, USA",
+            "expertise": "Dermatologist (specializes in wounds and rosacea)",
+            "notable_talks": {
+                "text": "Insights on real-world evidence for HS treatments, including Bimekizumab",
+                "url": "https://www.researchgate.net/publication/377456527_Bimekizumab_Impact_on_Pain_in_Moderate_to_Severe_Hidradenitis_Suppurativa_Week_16_Results_from_BE_HEARD_I_II"
+            },
+            "publications":["https://pubmed.ncbi.nlm.nih.gov/?term=lev-tov+h"]
+        },
+        {
+            "name": "Dr. Alexa Kimball, MD, MPH",
+            "affiliation": "Harvard Medical School",
+            "expertise": "Psoriasis and Hidradenitis suppurativa",
+            "notable_talks": {
+                "text": "Talks BE HEARD Data for Hidradenitis Suppurativa",
+                "url": "https://www.dermatologytimes.com/view/q-a-alexa-kimball-md-mph-talks-be-heard-data-for-hidradenitis-suppurativa"
+            },
+            "publications":["https://www.ncbi.nlm.nih.gov/myncbi/alexa.kimball.1/bibliography/public/"]
+        }],
+    "alopecia areata":[
+            {
+                "name": "Dr. Maryanne Senna, MD",
+                "affiliation": "Beth Israel Lahey Health",
+                "expertise": "Dermatology (Alopecia Areata)",
+                "notable_talks": {
+                    "text": "Navigating Challenges and Advancements in Alopecia Areata Treatment",
+                    "url": "https://www.dermatologytimes.com/view/navigating-challenges-and-advancements-in-alopecia-areata-treatment"
+                },
+                "publications": ["https://www.researchgate.net/scientific-contributions/Maryanne-Makredes-Senna-2169991515"]
+            },
+            {
+                "name": "Dr. Angela Christiano, PhD",
+                "affiliation": "Columbia University",
+                "expertise": "Molecular basis of inherited skin and hair disorders in humans and mice",
+                "notable_talks": {
+                    "text": "The Key to Locks: Columbia Team’s Breakthrough Led to Hair Loss Treatment",
+                    "url": "https://www.cuimc.columbia.edu/news/key-locks-columbia-teams-breakthrough-led-hair-loss-treatment"
+                },
+                "publications": ["https://pubmed.ncbi.nlm.nih.gov/?sort=date&term=Christiano+AM&cauthor_id=9445480"]
+            },
+            {
+                "name": "Dr. Brett King, MD, PhD",
+                "affiliation": "Yale University School of Medicine",
+                "expertise": "Skin diseases recalcitrant to first-line therapies",
+                "notable_talks": {
+                    "text": "Novel Mechanisms of Action for Treatment of Alopecia Areata",
+                    "url": "https://www.hcplive.com/view/novel-mechanisms-of-action-for-treatment-of-alopecia-areata"
+                },
+                "publications": ["https://scholar.google.com/citations?user=KZOZDlsAAAAJ&hl=en"]
+            },
+            {
+                "name": "Dr. Raj S Chovatiya, MD, PhD",
+                "affiliation": "Feinberg School of Medicine",
+                "expertise": "Chronic immune-mediated inflammatory diseases, including atopic dermatitis, eczema, seborrheic dermatitis, urticaria, hidradenitis suppurativa, vitiligo, alopecia areata,  psoriasis, pemphigoid",
+                "notable_talks": {
+                    "text": "JAK Inhibitor Baricitinib for Treatment of Alopecia Areata",
+                    "url": "https://www.hcplive.com/view/jak-inhibitor-baricitinib-for-treatment-of-alopecia-areata"
+                },
+                "publications":["https://pubmed.ncbi.nlm.nih.gov/?sort=date&term=Chovatiya+R&cauthor_id=38958996"]
+            },
+            {
+                "name": "Dr. George Han, MD, PhD",
+                "affiliation": "Donald and Barbara Zucker School of Medicine at Hofstra / Northwell.",
+                "expertise": "Dermatology (Psoriasis, Atopic Dermatitis, Vitiligo, Hidradenitis Suppurativa, and Actinic Keratosis)",
+                "notable_talks": {
+                    "text": "Recent Advances in the Treatment of Alopecia Areata",
+                    "url": "https://www.hcplive.com/view/recent-advances-in-the-treatment-of-alopecia-areata"
+                },
+                "publications": ["https://faculty.medicine.hofstra.edu/19198-george-han/publications"]
+            }
+        ],
+    "asthma":[
+        {
+            "name": "Dr. Robert Sporter, MD",
+            "affiliation": "ENT and Allergy Associates \\- Fifth Avenue",
+            "expertise": "Allergy and Immunology",
+            "notable_talks": {
+                "text": "Treatment of Asthma in Pediatric Patients",
+                "url": "https://www.hcplive.com/view/treatment-of-asthma-in-pediatric-patients"
+            },
+            "publications": ["https://pubmed.ncbi.nlm.nih.gov/?term=%22Sporter%20RJ%22%5BAuthor%5D"]
+        },
+        {
+            "name": "Dr. Nicole M Chase, MD",
+            "affiliation": "St.Paul Allergy and Asthma and University of Minnesota",
+            "expertise": "Pediatric and adult allergic diseases (Asthma, hives, urticaria, eczema, snake venom hypersensitivity, environmental and food allergies and chronic sinusitis)",
+            "notable_talks": {
+                "text": "Biologic Options in Pediatric Asthma",
+                "url": "https://www.hcplive.com/view/biologic-options-in-pediatric-asthma"
+            },
+            "publications": ["https://pubmed.ncbi.nlm.nih.gov/?sort=date&term=Chase+NM&cauthor_id=38253245"]
+        },
+        {
+            "name": "Dr. S Shahzad Mustafa, MD",
+            "affiliation": "Rochester Regional Health, New York",
+            "expertise": "Allergy and Immunology",
+            "notable_talks": {
+                "text": "Atopic March in Pediatric Patients",
+                "url": "https://www.hcplive.com/view/atopic-march-in-pediatric-patients"
+            },
+            "publications": ["https://pubmed.ncbi.nlm.nih.gov/?sort=date&term=Mustafa+SS&cauthor_id=32967430"]
+        },
+        {
+            "name": "Dr. Leonardo M. Fabbri, MD",
+            "affiliation": "University of Ferrara",
+            "expertise": "Asthma, Chronic Obstructive Pulmonary Disorder, Chronic diseases Heart failure,",
+            "notable_talks": {
+                "text": "Giants in Chest medicine",
+                "url": "https://journal.chestnet.org/article/S0012-3692\\(16\\"
+            },
+            "publications": ["https://scholar.google.it/citations?user=q1QLfqUAAAAJ&hl=it"]
+        },
+        {
+            "name": "Dr. Sande O. Okelo, MD, PhD",
+            "affiliation": "Santa Monica Pediatric Specialty Care, Santa Monica",
+            "expertise": "Pediatric Pulmonology",
+            "notable_talks": {
+                "text": "Oral Corticosteroid Overuse and Uncontrolled Asthma",
+                "url": "https://www.hcplive.com/view/oral-corticosteroid-overuse-and-uncontrolled-asthma"
+            },
+            "publications": ["https://pubmed.ncbi.nlm.nih.gov/?sort=date&term=Okelo+SO&cauthor_id=23434285"]
+        }
+    ]
+}

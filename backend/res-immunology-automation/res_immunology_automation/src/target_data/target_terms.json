@@ -1,0 +1,139 @@
+{
+    "tslp": [
+        "tslp"
+    ],
+    "il31r": [
+        "il-31r",
+        "il31r",
+        "interleukin-31 receptor",
+        "il31ra",
+        "il-31ra"
+    ],
+     "il31ra": [
+        "il-31ra",
+        "il31ra",
+        "interleukin-31 receptor",
+        "il31r",
+        "il-31r"
+    ],
+    "il13": [
+        "il-13",
+        "il13",
+        "interleukin-13"
+    ],
+    "il22": [
+        "il-22",
+        "il22",
+        "interleukin-22"
+    ],
+    "tnfrsf4": [
+        "ox40",
+        "tnfrsf4"
+    ],
+    "tnfsf4": [
+        "ox40l",
+        "tnfsf4"
+    ],
+    "c-kit": [
+        "c-kit ",
+        "kit"
+    ],
+    "fkbp1a": [
+        "fkbp1a"
+    ],
+    "jak2": [
+        "jak2"
+    ],
+    "nr3c1": [
+        "nr3c1"
+    ],
+    "il4r": [
+        "il-4r",
+        "il4r",
+        "interleukin-4 receptor"
+    ],
+    "ighe": [
+        "ige",
+        "immunoglobulin e"
+    ],
+    "tnfa": [
+        "tnfa"
+    ],
+    "il5r": [
+        "il5r",
+        "il-5r",
+        "interleukin-5 receptor"
+    ],
+    "il5ra": [
+        "il5ra",
+        "il-5ra",
+        "Interleukin 5 receptor alpha" 
+    ],
+    "il5": [
+        "il-5",
+        "il5",
+        "interleukin-5"
+    ],
+    "il17a": [
+        "il-17a",
+        "il17a",
+        "interleukin-17a"
+    ],
+    "il17f": [
+        "il-17f",
+        "il17f",
+        "interleukin-17f"
+    ],
+    "tnfrsf13c": [
+        "baff",
+        "tnfrsf13c"
+    ],
+    "il33": [
+        "il-33",
+        "il33",
+        "interleukin-33"
+    ],
+    "il23a": [
+        "il-23a",
+        "il23a",
+        "interleukin-23a"
+    ],
+    "il6": [
+        "il-6",
+        "il6",
+        "interleukin-6"
+    ],
+    "il25": [
+        "il-25",
+        "il25",
+        "interleukin-25"
+    ],
+    "il1rap": [
+        "il-1rap",
+        "il1rap",
+        "interleukin-1 receptor accessory protein"
+    ],
+    "il1b": [
+        "il-1b",
+        "il1b",
+        "interleukin-1 beta"
+    ],
+    "btk": [
+        "btk"
+    ],
+    "jak3": [
+        "jak3"
+    ],
+    "pde4a": [
+        "pde4a"
+    ],
+    "pde4b": [
+        "pde4b"
+    ],
+    "pde4c": [
+        "pde4c"
+    ],
+    "pde4d": [
+        "pde4d"
+    ]
+}

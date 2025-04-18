@@ -1,0 +1,25 @@
+{
+  "diseases": {
+    "systemic scleroderma": {
+      "synonyms": [
+        "systemic sclerosis",
+        "scleroderma"
+      ]
+    },
+    "hidradenitis suppurativa": {
+      "synonyms": [
+        "hidradenitis"
+      ]
+    },
+    "atopic eczema": {
+      "synonyms": [
+        "atopic dermatitis"
+      ]
+    },
+    "dermatitis, atopic": {
+      "synonyms": [
+        "atopic dermatitis"
+      ]
+    }
+  }
+}
