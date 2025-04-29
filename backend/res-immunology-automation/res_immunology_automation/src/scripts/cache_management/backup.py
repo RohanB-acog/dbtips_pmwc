@@ -1,12 +1,13 @@
 """
-Module for backing up individual disease cache data.
+Module for backing up individual disease cache data, prioritized by processing time.
 """
 
 import os
 import asyncio
 import shutil
 import sys
-from sqlalchemy import select
+from sqlalchemy import select, func
+from datetime import datetime
 from .utils import (
     setup_logging, 
     create_backup_directories,
@@ -23,6 +24,43 @@ from .utils import (
 sys.path.append(BASE_DIR)
 from build_dossier import SessionLocal
 from db.models import DiseasesDossierStatus
+
+
+async def get_processed_diseases_ordered_by_time():
+    """Get all processed diseases from the database, ordered by processed_time (oldest first)."""
+    logger = setup_logging("backup_processed_ordered")
+    
+    try:
+        async with SessionLocal() as db:
+            # Select processed diseases ordered by processed_time
+            result = await db.execute(
+                select(DiseasesDossierStatus)
+                .where(DiseasesDossierStatus.status == "processed")
+                .order_by(DiseasesDossierStatus.processed_time)  # Oldest first
+            )
+            disease_records = result.scalars().all()
+            
+            processed_disease_ids = []
+            for record in disease_records:
+                processed_time = record.processed_time.strftime('%Y-%m-%d %H:%M:%S') if record.processed_time else "Unknown"
+                processed_disease_ids.append({
+                    "id": record.id,
+                    "processed_time": processed_time
+                })
+                
+            if not processed_disease_ids:
+                logger.error("No diseases with 'processed' status found in database.")
+                return []
+                
+            logger.info(f"Found {len(processed_disease_ids)} diseases with 'processed' status, ordered by processing time")
+            for disease in processed_disease_ids:
+                logger.info(f"Disease ID: {disease['id']}, Processed Time: {disease['processed_time']}")
+                
+            return processed_disease_ids
+            
+    except Exception as e:
+        logger.error(f"Error getting processed diseases ordered by time: {str(e)}")
+        return []
 
 
 async def backup_single_disease(disease_id):
@@ -74,26 +112,26 @@ async def backup_single_disease(disease_id):
 
 
 async def backup_processed_diseases():
-    """Get all processed diseases from the database."""
-    logger = setup_logging("backup_processed")
+    """Backup all processed diseases, starting with the oldest first."""
+    logger = setup_logging("backup_processed_chronological")
     
     try:
-        async with SessionLocal() as db:
-            result = await db.execute(
-                select(DiseasesDossierStatus).where(DiseasesDossierStatus.status == "processed")
-            )
-            disease_records = result.scalars().all()
-            processed_disease_ids = [record.id for record in disease_records]
-            
-            if not processed_disease_ids:
-                logger.error("No diseases with 'processed' status found in database.")
-                return []
+        # Get diseases ordered by processed_time (oldest first)
+        disease_records = await get_processed_diseases_ordered_by_time()
+        
+        if not disease_records:
+            logger.error("No processed diseases found to backup.")
+            return []
                 
-            logger.info(f"Found {len(processed_disease_ids)} diseases with 'processed' status: {processed_disease_ids}")
-            return processed_disease_ids
+        logger.info(f"Starting backup for {len(disease_records)} diseases in chronological order (oldest first)...")
+        
+        # Extract just the disease IDs for compatibility with other functions
+        processed_disease_ids = [record["id"] for record in disease_records]
+        
+        return processed_disease_ids
             
     except Exception as e:
-        logger.error(f"Error getting processed diseases: {str(e)}")
+        logger.error(f"Error backing up processed diseases in chronological order: {str(e)}")
         return []
 
 
@@ -108,21 +146,27 @@ async def main():
         else:
             print(f"Backup of disease {disease_id} failed. Check logs for details.")
     else:
-        # Otherwise backup all processed diseases
-        disease_ids = await backup_processed_diseases()
-        if not disease_ids:
+        # Backup all processed diseases in chronological order
+        disease_records = await get_processed_diseases_ordered_by_time()
+        if not disease_records:
             print("No processed diseases found to backup.")
             return
             
-        print(f"Starting backup for {len(disease_ids)} diseases...")
+        disease_ids = [record["id"] for record in disease_records]
+        print(f"Starting backup for {len(disease_ids)} diseases in chronological order (oldest first)...")
+        
         success_count = 0
         for disease_id in disease_ids:
+            print(f"Processing disease {disease_id}...")
             result = await backup_single_disease(disease_id)
             if result:
                 success_count += 1
+            # Small delay between operations
+            await asyncio.sleep(1)
         
         print(f"Backup completed: {success_count}/{len(disease_ids)} successful.")
 
 
 if __name__ == "__main__":
     asyncio.run(main())
+

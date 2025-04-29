@@ -1,5 +1,6 @@
 """
-Module for regenerating cache data for individual diseases with retry logic.
+Module for regenerating cache data for individual diseases with retry logic,
+processing in chronological order of their processed_time.
 """
 
 import asyncio
@@ -24,9 +25,13 @@ sys.path.append(BASE_DIR)
 from build_dossier import SessionLocal, DiseasesDossierStatus, run_endpoints, get_db
 from graphrag_service import get_redis
 
+# Import backup function to get ordered diseases
+from .backup import get_processed_diseases_ordered_by_time
+
 
 async def verify_redis_connection():
     """Verify Redis connection is working."""
+    # [No changes needed, keep original implementation]
     logger = setup_logging("verify_redis")
     
     try:
@@ -46,6 +51,7 @@ async def verify_redis_connection():
 
 async def update_disease_status(disease_id, status, processed_time=None):
     """Update disease status."""
+    # [No changes needed, keep original implementation]
     logger = setup_logging("update_status")
     
     try:
@@ -74,6 +80,7 @@ async def update_disease_status(disease_id, status, processed_time=None):
 
 async def verify_json_file_content(disease_id):
     """Verify the JSON file is not empty after regeneration."""
+    # [No changes needed, keep original implementation]
     logger = setup_logging("verify_json")
     
     file_path = os.path.join(DISEASE_CACHE_DIR, f"{disease_id}.json")
@@ -115,6 +122,7 @@ async def verify_json_file_content(disease_id):
 
 async def run_regeneration_for_disease(disease_id):
     """Run regeneration for a single disease."""
+    # [No changes needed, keep original implementation]
     logger = setup_logging("run_regeneration")
     
     try:
@@ -149,8 +157,10 @@ async def run_regeneration_for_disease(disease_id):
         log_error_to_json(disease_id, "regeneration_exception", error_msg, module="regenerate")
         return False
 
+
 async def restore_disease_from_backup(disease_id):
     """Restore a disease file from its backup."""
+    # [No changes needed, keep original implementation]
     logger = setup_logging("restore_disease")
     logger.info(f"Attempting to restore disease {disease_id} from backup")
     
@@ -181,6 +191,7 @@ async def restore_disease_from_backup(disease_id):
 
 async def regenerate_single_disease(disease_id):
     """Regenerate cache data for a single disease with retry logic."""
+    # [No changes needed, keep original implementation]
     logger = setup_logging("regenerate_single")
     logger.info(f"Starting regeneration process for disease: {disease_id}")
     
@@ -223,35 +234,52 @@ async def regenerate_single_disease(disease_id):
     return False
 
 
-async def get_diseases_for_regeneration():
-    """Get all diseases with 'regeneration' status."""
-    logger = setup_logging("get_regeneration")
+async def get_diseases_for_regeneration_ordered():
+    """Get all diseases with 'regeneration' status, ordered by processed_time (oldest first)."""
+    logger = setup_logging("get_regeneration_ordered")
     
     try:
         async with SessionLocal() as db:
-            # Select diseases with 'regeneration' status
+            # Select diseases with 'regeneration' status ordered by processed_time
             result = await db.execute(
-                select(DiseasesDossierStatus).where(DiseasesDossierStatus.status == "regeneration")
+                select(DiseasesDossierStatus)
+                .where(DiseasesDossierStatus.status == "regeneration")
+                .order_by(DiseasesDossierStatus.processed_time)  # Oldest first
             )
             disease_records = result.scalars().all()
-            disease_ids = [record.id for record in disease_records]
+            
+            disease_info = []
+            for record in disease_records:
+                processed_time = record.processed_time.strftime('%Y-%m-%d %H:%M:%S') if record.processed_time else "Unknown"
+                disease_info.append({
+                    "id": record.id,
+                    "processed_time": record.processed_time or datetime.min,  # Use min date for sorting if None
+                    "display_time": processed_time
+                })
+            
+            # Sort by processed_time (oldest first)
+            disease_info.sort(key=lambda x: x["processed_time"])
+            
+            disease_ids = [record["id"] for record in disease_info]
             
             if disease_ids:
-                logger.info(f"Found {len(disease_ids)} diseases with 'regeneration' status: {disease_ids}")
+                logger.info(f"Found {len(disease_ids)} diseases with 'regeneration' status, ordered by processing time")
+                for disease in disease_info:
+                    logger.info(f"Disease ID: {disease['id']}, Processed Time: {disease['display_time']}")
             else:
                 logger.info("No diseases with 'regeneration' status found")
                 
             return disease_ids
             
     except Exception as e:
-        logger.error(f"Error getting diseases for regeneration: {str(e)}")
+        logger.error(f"Error getting diseases for regeneration ordered by time: {str(e)}")
         return []
 
 
 async def regenerate_cache():
-    """Process diseases with 'regeneration' status one by one."""
+    """Process diseases with 'regeneration' status one by one, starting with the oldest first."""
     logger = setup_logging("regenerate_cache")
-    logger.info("Starting cache regeneration for marked diseases...")
+    logger.info("Starting cache regeneration for marked diseases in chronological order...")
     
     # Check environment variables
     missing_vars = check_environment_variables()
@@ -266,14 +294,14 @@ async def regenerate_cache():
         return False
     
     try:
-        # Get all diseases with 'regeneration' status
-        disease_ids = await get_diseases_for_regeneration()
+        # Get all diseases with 'regeneration' status, ordered by processed_time
+        disease_ids = await get_diseases_for_regeneration_ordered()
         
         if not disease_ids:
             logger.warning("No diseases with 'regeneration' status found to process.")
             return True  # Return true since there's nothing to do
         
-        logger.info(f"Processing {len(disease_ids)} diseases sequentially...")
+        logger.info(f"Processing {len(disease_ids)} diseases sequentially in chronological order...")
         
         # Process each disease one by one
         overall_success = True
@@ -312,7 +340,7 @@ async def main():
         else:
             print(f"Regeneration of disease {disease_id} failed. Check logs for details.")
     else:
-        # Otherwise process all diseases marked for regeneration
+        # Otherwise process all diseases marked for regeneration in chronological order
         result = await regenerate_cache()
         if result:
             print("Cache regeneration completed successfully.")

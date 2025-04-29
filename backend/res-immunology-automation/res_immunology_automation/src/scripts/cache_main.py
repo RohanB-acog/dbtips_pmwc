@@ -54,7 +54,7 @@ from cache_management.restore import restore_from_backup, restore_single_disease
 from cache_management.history_tracker import record_regeneration, print_last_operation_summary, print_monthly_stats
 from cache_management.diff_analyzer import analyze_disease_diff, print_diff_summary
 from cache_management.utils import setup_logging, create_backup_directories, log_error_to_json, BASE_DIR
-
+from cache_management.backup import get_processed_diseases_ordered_by_time
 class CacheManagementError(Exception):
     """Custom exception for cache management operations."""
     pass
@@ -135,24 +135,30 @@ async def perform_full_cycle_for_disease(disease_id):
         await record_regeneration(disease_id, operation_type="full", status="failed", notes=f"Error: {str(e)}")
         return False
 
+
 async def perform_full_cycle():
-    """Perform a full cache management cycle for all processed diseases."""
+    """Perform a full cache management cycle for all processed diseases in chronological order."""
     logger = setup_logging("full_cycle")
-    logger.info("Starting full cache management cycle for all processed diseases...")
+    logger.info("Starting full cache management cycle for all processed diseases in chronological order...")
     
     try:
-        # Get all processed diseases
-        disease_ids = await backup_processed_diseases()
+        # Get all processed diseases ordered by processed_time
         
-        if not disease_ids:
+        disease_records = await get_processed_diseases_ordered_by_time()
+        
+        if not disease_records:
             logger.warning("No processed diseases found to perform full cycle.")
             return True
         
-        logger.info(f"Found {len(disease_ids)} processed diseases to cycle through")
+        # Extract just the disease IDs
+        disease_ids = [record["id"] for record in disease_records]
+        
+        logger.info(f"Found {len(disease_ids)} processed diseases to cycle through, ordered by processing time")
         
         # Process each disease
         success_count = 0
         for disease_id in disease_ids:
+            logger.info(f"Starting full cycle for disease {disease_id}")
             result = await perform_full_cycle_for_disease(disease_id)
             if result:
                 success_count += 1
